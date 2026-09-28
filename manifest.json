@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Privacy Tracker Inspector",
+  "version": "0.1.0",
+  "description": "Inspeciona rastreadores, cookies e armazenamento usados por páginas no Firefox.",
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "cookies",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Privacy Tracker Inspector",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": ["page-probes.js"],
+  "applications": {
+    "gecko": {
+      "id": "privacy-tracker-inspector@insper.example",
+      "strict_min_version": "91.0"
+    }
+  }
+}

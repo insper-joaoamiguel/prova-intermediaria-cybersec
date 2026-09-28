@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Tracker Inspector</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="header">
+        <div>
+          <p class="eyebrow">Insper</p>
+          <h1>Privacy Tracker Inspector</h1>
+          <p id="page-url" class="page-url">Aguardando página...</p>
+        </div>
+        <button id="refresh" class="icon-button" type="button" title="Atualizar relatório" aria-label="Atualizar relatório">↻</button>
+      </header>
+
+      <section class="controls" aria-label="Controles">
+        <label class="switch-row">
+          <span>Bloqueio de rastreadores</span>
+          <input id="blocking" type="checkbox">
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+        <button id="clear" class="secondary-button" type="button">Limpar aba</button>
+      </section>
+
+      <section class="metrics" aria-label="Resumo">
+        <article class="metric"><strong id="domain-count">0</strong><span>domínios</span></article>
+        <article class="metric"><strong id="third-party-count">0</strong><span>terceiros</span></article>
+        <article class="metric"><strong id="request-count">0</strong><span>requisições</span></article>
+        <article class="metric"><strong id="blocked-count">0</strong><span>bloqueadas</span></article>
+      </section>
+
+      <section class="card">
+        <div class="card-heading"><h2>Domínios observados</h2><span id="domain-status" class="muted">—</span></div>
+        <ul id="domains" class="domain-list"><li class="empty">Nenhum domínio observado ainda.</li></ul>
+      </section>
+
+      <section class="split">
+        <article class="card compact-card">
+          <div class="card-heading"><h2>Cookies</h2><span id="cookie-total" class="badge">0</span></div>
+          <p id="cookie-summary" class="summary">Nenhum cookie observado.</p>
+        </article>
+        <article class="card compact-card">
+          <div class="card-heading"><h2>Armazenamento</h2><span id="storage-total" class="badge">0</span></div>
+          <p id="storage-summary" class="summary">Aguardando inspeção.</p>
+        </article>
+      </section>
+
+      <section class="card">
+        <div class="card-heading"><h2>Sinais de instrumentação</h2><span id="probe-total" class="badge">0</span></div>
+        <p id="probe-summary" class="summary">Canvas, WebSocket, EventSource, fetch e XHR ainda não observados.</p>
+      </section>
+
+      <footer id="status" class="status">Relatório local da aba ativa.</footer>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
