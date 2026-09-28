@@ -27,6 +27,19 @@ O bloqueio começa desligado para que a coleta possa ser comparada com o comport
 
 Após alterações nos arquivos, use **Recarregar** em `about:debugging` e atualize a página de teste.
 
+## Entrega 2 — evidência técnica e conceito B
+
+Esta etapa acrescenta:
+
+- identificação de candidatos a bounce tracking em redirects entre sites;
+- identificação de candidatos a cookie sync por parâmetros de identificação em requisições de terceira parte;
+- visão por origem dos dados de armazenamento e indicação de possíveis cenários de particionamento;
+- lista personalizada de domínios para bloqueio;
+- exportação do relatório técnico da aba em JSON, preservando os eventos observados e os critérios de interpretação;
+- status HTTP e nomes dos cabeçalhos de resposta associados às requisições observadas.
+
+Os sinais de bounce e cookie sync são apresentados como candidatos observados, não como prova automática de intenção. A confirmação deve ser feita com o tráfego do HAR, a página de teste e a comparação com as ferramentas de referência.
+
 ## Estrutura
 
 - `manifest.json`: permissões e pontos de entrada da extensão.
@@ -37,7 +50,7 @@ Após alterações nos arquivos, use **Recarregar** em `about:debugging` e atual
 
 ## Limitações conhecidas desta entrega
 
-A classificação de terceira parte usa uma heurística local de domínio registrável e não substitui uma lista pública completa de sufixos. A reconciliação com Blacklight/uBlock, análise de bounce tracking, exportação de HAR, metodologia de pontuação e relatório PDF serão adicionadas nas próximas entregas, junto com as evidências dos três sites reais.
+A classificação de terceira parte usa uma heurística local de domínio registrável e não substitui uma lista pública completa de sufixos. A reconciliação com Blacklight/uBlock, exportação de HAR, metodologia de pontuação e relatório PDF ainda dependem das evidências coletadas nos três sites reais e serão fechadas na entrega final.
 
 ## Verificação rápida
 

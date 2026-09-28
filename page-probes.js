@@ -100,8 +100,28 @@
     }
   }
 
+  function patchStorageAccess() {
+    const documentPrototype = window.Document && window.Document.prototype;
+    if (!documentPrototype) return;
+    for (const methodName of ["hasStorageAccess", "requestStorageAccess"]) {
+      const original = documentPrototype[methodName];
+      if (typeof original !== "function") continue;
+      try {
+        documentPrototype[methodName] = function patchedStorageAccessMethod(...args) {
+          emit("storage-access", { method: methodName });
+          const result = original.apply(this, args);
+          if (result && typeof result.then === "function") {
+            result.then((value) => emit("storage-access-result", { method: methodName, value: Boolean(value) })).catch(() => undefined);
+          }
+          return result;
+        };
+      } catch (_error) { /* native property may be read-only */ }
+    }
+  }
+
   patchCanvas();
   patchWebSocket();
   patchEventSource();
   patchFetchAndXhr();
+  patchStorageAccess();
 })();

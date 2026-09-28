@@ -23,11 +23,15 @@ button { border: 0; cursor: pointer; font: inherit; }
 .switch-row input:checked + .switch { background: #1c9f78; }
 .switch-row input:checked + .switch::after { margin-left: 15px; background: white; }
 .secondary-button { padding: 5px 8px; border: 1px solid #2c3847; border-radius: 6px; background: transparent; color: #9eabba; font-size: 11px; }
+.full-button { width: 100%; }
+textarea { width: 100%; resize: vertical; border: 1px solid #2c3847; border-radius: 6px; background: #10141b; color: #d6e0ea; font: inherit; font-size: 11px; padding: 7px; }
+textarea:focus { outline: 1px solid #65d6b0; }
 .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; margin-bottom: 12px; }
 .metric { padding: 10px 5px; border: 1px solid #293543; border-radius: 9px; background: #151c25; text-align: center; }
 .metric strong { display: block; color: #65d6b0; font-size: 19px; }
 .metric span { display: block; margin-top: 2px; color: #95a4b5; font-size: 10px; }
 .card { margin-top: 10px; padding: 12px; border: 1px solid #293543; border-radius: 10px; background: #151c25; }
+.custom-card { display: grid; gap: 8px; }
 .compact-card { margin-top: 0; min-height: 100px; }
 .card-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 h2 { margin: 0; color: #dce5ee; font-size: 12px; }
@@ -43,3 +47,5 @@ h2 { margin: 0; color: #dce5ee; font-size: 12px; }
 .empty { color: #8d9cad; font-size: 11px; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
 .status { margin-top: 13px; color: #718092; font-size: 10px; text-align: center; }
+.export-button { width: 100%; margin-top: 10px; padding: 9px; border-radius: 7px; background: #1c9f78; color: white; font-size: 11px; font-weight: 700; }
+.export-button:hover { background: #25b88d; }

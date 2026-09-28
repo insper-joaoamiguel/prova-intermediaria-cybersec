@@ -10,7 +10,7 @@
     <main class="panel">
       <header class="header">
         <div>
-          <p class="eyebrow">Insper</p>
+          <p class="eyebrow">Cyber Security</p>
           <h1>Privacy Tracker Inspector</h1>
           <p id="page-url" class="page-url">Aguardando página...</p>
         </div>
@@ -24,6 +24,12 @@
           <span class="switch" aria-hidden="true"></span>
         </label>
         <button id="clear" class="secondary-button" type="button">Limpar aba</button>
+      </section>
+
+      <section class="card custom-card">
+        <div class="card-heading"><h2>Lista personalizada de bloqueio</h2><span class="muted">um domínio por linha</span></div>
+        <textarea id="custom-block-list" rows="2" placeholder="exemplo-tracker.com"></textarea>
+        <button id="save-block-list" class="secondary-button full-button" type="button">Salvar lista</button>
       </section>
 
       <section class="metrics" aria-label="Resumo">
@@ -53,6 +59,13 @@
         <div class="card-heading"><h2>Sinais de instrumentação</h2><span id="probe-total" class="badge">0</span></div>
         <p id="probe-summary" class="summary">Canvas, WebSocket, EventSource, fetch e XHR ainda não observados.</p>
       </section>
+
+      <section class="card">
+        <div class="card-heading"><h2>Fluxos de rastreamento</h2><span id="flow-total" class="badge">0</span></div>
+        <p id="flow-summary" class="summary">Nenhum redirect de bounce ou sinal de sincronização observado.</p>
+      </section>
+
+      <button id="export" class="export-button" type="button">Exportar relatório técnico (JSON)</button>
 
       <footer id="status" class="status">Relatório local da aba ativa.</footer>
     </main>

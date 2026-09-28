@@ -17,14 +17,20 @@ const TRACKING_QUERY_KEYS = new Set([
   "_ga", "_gl", "fbclid", "gclid", "msclkid", "mc_cid", "mc_eid", "ttclid", "twclid", "yclid"
 ]);
 
+const SYNC_QUERY_KEYS = new Set([
+  "dclid", "gdpr", "gdpr_consent", "id", "match", "partner_id", "redirect", "sync", "uid", "user_id"
+]);
+
 const tabReports = new Map();
 let blockingEnabled = false;
+let customBlockList = [];
 
 function emptyReport(tabId) {
   return {
     tabId,
     topUrl: "",
     topSite: "",
+    navigationStartUrl: "",
     startedAt: Date.now(),
     requests: [],
     domains: new Map(),
@@ -32,6 +38,8 @@ function emptyReport(tabId) {
     storage: new Map(),
     probes: [],
     redirects: [],
+    bounceSignals: [],
+    syncSignals: [],
     errors: [],
     blockedCount: 0,
     knownRequestHosts: new Set(),
@@ -80,8 +88,14 @@ function classifySite(pageUrl, resourceUrl) {
 function isTrackerHost(url) {
   const parsed = safeUrl(url);
   if (!parsed) return false;
-  const path = `${parsed.hostname}${parsed.pathname}`.toLowerCase();
-  return TRACKER_HOSTS.some((entry) => path === entry || path.endsWith(`.${entry}`) || path.includes(`.${entry}/`));
+  const host = parsed.hostname.toLowerCase();
+  const path = parsed.pathname.toLowerCase();
+  return TRACKER_HOSTS.some((entry) => {
+    const [entryHost, entryPath] = entry.toLowerCase().split("/", 2);
+    const hostMatches = host === entryHost || host.endsWith(`.${entryHost}`);
+    const pathMatches = !entryPath || path === `/${entryPath}` || path.startsWith(`/${entryPath}/`);
+    return hostMatches && pathMatches;
+  });
 }
 
 function hasTrackingQuery(url) {
@@ -96,21 +110,36 @@ function hasTrackingQuery(url) {
 function isBlockCandidate(report, details) {
   return Boolean(
     details && details.type !== "main_frame" &&
-    isThirdParty(report.topUrl, details.url) && isTrackerHost(details.url)
+    isThirdParty(report.topUrl, details.url) && (isTrackerHost(details.url) || isCustomBlockHost(details.url))
   );
+}
+
+function normalizeBlockHost(value) {
+  const candidate = String(value || "").trim().toLowerCase().replace(/^\*\.\./, "").replace(/^\*\./, "");
+  if (!candidate || candidate.includes("/") || candidate.includes(" ")) return "";
+  return candidate.replace(/^\.+|\.+$/g, "");
+}
+
+function isCustomBlockHost(url) {
+  const host = normalizedHost(url);
+  return customBlockList.some((pattern) => host === pattern || host.endsWith(`.${pattern}`));
 }
 
 function resetForMainFrame(tabId, url) {
   const report = emptyReport(tabId);
   report.topUrl = url || "";
   report.topSite = registrableSite(url);
+  report.navigationStartUrl = url || "";
   tabReports.set(tabId, report);
   return report;
 }
 
 function ensureTopUrl(report, url, type) {
-  if (!report.topUrl || type === "main_frame") {
+  if (!report.topUrl) {
     report.topUrl = url || report.topUrl;
+    report.topSite = registrableSite(report.topUrl);
+  } else if (type === "main_frame" && url) {
+    report.topUrl = url;
     report.topSite = registrableSite(report.topUrl);
   }
 }
@@ -132,14 +161,35 @@ function addDomain(report, details, blocked, trackingQuery) {
   report.knownRequestHosts.add(host);
 }
 
+function addSyncSignal(report, details, trackingQuery) {
+  if (!isThirdParty(report.topUrl, details.url)) return;
+  const parsed = safeUrl(details.url);
+  if (!parsed) return;
+  const matchedKeys = [...parsed.searchParams.keys()]
+    .map((key) => key.toLowerCase())
+    .filter((key) => SYNC_QUERY_KEYS.has(key));
+  if (!matchedKeys.length || (!trackingQuery && !isTrackerHost(details.url))) return;
+  if (report.syncSignals.length >= MAX_EVENTS_PER_TAB) return;
+  report.syncSignals.push({
+    url: details.url,
+    host: parsed.hostname.toLowerCase(),
+    keys: [...new Set(matchedKeys)],
+    type: details.type || "other",
+    reason: isTrackerHost(details.url) ? "known-tracker-with-identifier" : "cross-site-identifier",
+    timeStamp: details.timeStamp || Date.now()
+  });
+}
+
 function addRequest(tabId, details, blocked = false) {
   if (tabId < 0 || !details || !details.url) return;
   const report = getReport(tabId);
   ensureTopUrl(report, details.documentUrl || details.originUrl || details.url, details.type);
   const trackingQuery = hasTrackingQuery(details.url);
   addDomain(report, details, blocked, trackingQuery);
+  addSyncSignal(report, details, trackingQuery);
   if (report.requests.length < MAX_REQUESTS_PER_TAB) {
     report.requests.push({
+      requestId: details.requestId || "",
       url: details.url,
       host: normalizedHost(details.url),
       type: details.type || "other",
@@ -147,6 +197,8 @@ function addRequest(tabId, details, blocked = false) {
       siteType: classifySite(report.topUrl, details.url),
       blocked,
       trackingQuery,
+      statusCode: null,
+      responseHeaderNames: [],
       timeStamp: details.timeStamp || Date.now()
     });
   }
@@ -195,9 +247,51 @@ function serializeStorage(storage) {
   return result;
 }
 
+function storagePartitionSummary(report) {
+  const origins = new Map();
+  for (const frame of report.storage.values()) {
+    if (!frame.url) continue;
+    const parsed = safeUrl(frame.url);
+    if (!parsed || !/^https?:$/i.test(parsed.protocol)) continue;
+    const origin = parsed.origin;
+    const current = origins.get(origin) || {
+      origin,
+      site: registrableSite(frame.url),
+      thirdParty: isThirdParty(report.topUrl, frame.url),
+      localKeys: 0,
+      sessionKeys: 0,
+      indexedDb: 0,
+      frames: 0
+    };
+    current.localKeys += (frame.localStorage && frame.localStorage.keys) || 0;
+    current.sessionKeys += (frame.sessionStorage && frame.sessionStorage.keys) || 0;
+    current.indexedDb += (frame.indexedDB && frame.indexedDB.databases && frame.indexedDB.databases.length) || 0;
+    current.frames += 1;
+    origins.set(origin, current);
+  }
+  const values = [...origins.values()];
+  const thirdPartyWithStorage = values.filter((entry) => entry.thirdParty && (entry.localKeys || entry.sessionKeys || entry.indexedDb));
+  return {
+    origins: values,
+    firstPartyOrigins: values.filter((entry) => !entry.thirdParty).length,
+    thirdPartyOrigins: values.filter((entry) => entry.thirdParty).length,
+    thirdPartyWithStorage: thirdPartyWithStorage.length,
+    interpretation: thirdPartyWithStorage.length
+      ? "Há armazenamento associado a uma origem de terceira parte; confirme no teste se a chave está particionada pelo navegador."
+      : "Nenhuma origem de terceira parte com armazenamento observável nesta aba."
+  };
+}
+
 function serializeDomains(domains) {
   return [...domains.values()].map((domain) => ({ ...domain, types: [...domain.types] }))
     .sort((a, b) => b.requests - a.requests || a.host.localeCompare(b.host));
+}
+
+function recordResponse(report, details) {
+  const request = [...report.requests].reverse().find((entry) => entry.requestId && entry.requestId === details.requestId);
+  if (!request) return;
+  request.statusCode = details.statusCode || null;
+  request.responseHeaderNames = (details.responseHeaders || []).map((header) => String(header.name || "").toLowerCase()).filter(Boolean);
 }
 
 function cookieSummary(report) {
@@ -235,6 +329,7 @@ function publicReport(report) {
     tabId: report.tabId,
     topUrl: report.topUrl,
     topSite: report.topSite,
+    navigationStartUrl: report.navigationStartUrl,
     startedAt: report.startedAt,
     lastActivityAt: report.lastActivityAt,
     blockingEnabled,
@@ -243,8 +338,12 @@ function publicReport(report) {
     domains: serializeDomains(report.domains),
     cookies: cookieSummary(report),
     storage: serializeStorage(report.storage),
+    storagePartitioning: storagePartitionSummary(report),
     probes: probeSummary(report.probes),
     redirects: report.redirects.slice(-20),
+    bounceSignals: report.bounceSignals.slice(-20),
+    syncSignals: report.syncSignals.slice(-20),
+    customBlockList,
     errors: report.errors.slice(-20)
   };
 }
@@ -270,8 +369,11 @@ async function snapshotVisibleCookies(tabId, url) {
 
 async function loadSettings() {
   try {
-    const result = await browser.storage.local.get({ blockingEnabled: false });
+    const result = await browser.storage.local.get({ blockingEnabled: false, customBlockList: [] });
     blockingEnabled = Boolean(result.blockingEnabled);
+    customBlockList = Array.isArray(result.customBlockList)
+      ? result.customBlockList.map(normalizeBlockHost).filter(Boolean)
+      : [];
   } catch (error) {
     console.warn("Não foi possível carregar as preferências", error);
   }
@@ -281,7 +383,13 @@ browser.runtime.onMessage.addListener((message, sender) => {
   const tabId = typeof message.tabId === "number" ? message.tabId : sender.tab && sender.tab.id;
   if (message.type === "page-context" && typeof tabId === "number") {
     const report = getReport(tabId);
-    if (sender.frameId === 0 && message.href && report.topUrl !== message.href) resetForMainFrame(tabId, message.href);
+    if (sender.frameId === 0 && message.href) {
+      if (!report.topUrl) resetForMainFrame(tabId, message.href);
+      else {
+        report.topUrl = message.href;
+        report.topSite = registrableSite(message.href);
+      }
+    }
     getReport(tabId).storage.set(`frame-${sender.frameId ?? 0}`, {
       frameId: sender.frameId ?? 0, url: message.href || sender.url || "", title: message.title || ""
     });
@@ -319,6 +427,13 @@ browser.runtime.onMessage.addListener((message, sender) => {
     return browser.storage.local.set({ blockingEnabled }).then(() => ({ blockingEnabled }));
   }
 
+  if (message.type === "set-custom-block-list") {
+    customBlockList = Array.isArray(message.hosts)
+      ? [...new Set(message.hosts.map(normalizeBlockHost).filter(Boolean))].slice(0, 100)
+      : [];
+    return browser.storage.local.set({ customBlockList }).then(() => ({ customBlockList }));
+  }
+
   if (message.type === "clear-tab-report" && typeof tabId === "number") {
     const topUrl = getReport(tabId).topUrl;
     resetForMainFrame(tabId, topUrl);
@@ -330,7 +445,8 @@ browser.runtime.onMessage.addListener((message, sender) => {
 browser.webRequest.onBeforeRequest.addListener((details) => {
   if (details.tabId < 0) return undefined;
   if (details.type === "main_frame") {
-    resetForMainFrame(details.tabId, details.url);
+    const report = getReport(details.tabId);
+    if (!report.topUrl) resetForMainFrame(details.tabId, details.url);
     addRequest(details.tabId, details, false);
     return undefined;
   }
@@ -342,12 +458,30 @@ browser.webRequest.onBeforeRequest.addListener((details) => {
 }, { urls: ["<all_urls>"] }, ["blocking"]);
 
 browser.webRequest.onHeadersReceived.addListener((details) => {
-  if (details.tabId >= 0) addSetCookieHeaders(details.tabId, details);
+  if (details.tabId >= 0) {
+    const report = getReport(details.tabId);
+    recordResponse(report, details);
+    addSetCookieHeaders(details.tabId, details);
+  }
 }, { urls: ["<all_urls>"] }, ["responseHeaders"]);
 
 browser.webRequest.onBeforeRedirect.addListener((details) => {
   if (details.tabId < 0) return;
   const report = getReport(details.tabId);
+  const fromSite = registrableSite(details.url);
+  const toSite = registrableSite(details.redirectUrl);
+  const originalSite = registrableSite(report.navigationStartUrl);
+  const bounceCandidate = details.type === "main_frame" || isTrackerHost(details.url) || hasTrackingQuery(details.url);
+  if (bounceCandidate && fromSite && toSite && fromSite !== toSite && report.bounceSignals.length < MAX_EVENTS_PER_TAB) {
+    report.bounceSignals.push({
+      from: details.url,
+      to: details.redirectUrl,
+      type: details.type,
+      returnsToNavigationSite: Boolean(originalSite && toSite === originalSite),
+      crossSite: fromSite !== toSite,
+      timeStamp: details.timeStamp || Date.now()
+    });
+  }
   if (report.redirects.length < MAX_EVENTS_PER_TAB) report.redirects.push({
     from: details.url, to: details.redirectUrl, type: details.type,
     siteChanged: isThirdParty(report.topUrl, details.url) !== isThirdParty(report.topUrl, details.redirectUrl),
