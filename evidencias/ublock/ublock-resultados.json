@@ -1,0 +1,75 @@
+{
+  "ferramenta": "uBlock Origin Logger",
+  "coletado_em": "2026-09-29",
+  "metodologia": {
+    "navegador": "Mozilla Firefox",
+    "estado": "uBlock Origin ligado; captura visual do Logger durante o carregamento das páginas",
+    "limite": "As imagens mostram uma janela amostral do Logger, não um contador total de toda a sessão."
+  },
+  "resultados": [
+    {
+      "site": "Bradesco",
+      "url": "https://banco.bradesco/html/classic/index.shtm",
+      "evidencia": "prints/bradesco.png",
+      "bloqueios_visiveis": [
+        {
+          "host": "bancobradesco.tt.omtrdc.net",
+          "tipo": "beacon POST",
+          "filtro": "||omtrdc.net^",
+          "observacao": "Linha vermelha do Logger; request para /rest/v1/delivery."
+        }
+      ],
+      "alteracoes_visiveis": [
+        "+js(prevent-clipboard-write, ...)",
+        "@@||omtrdc.net/rest/$xhr"
+      ],
+      "permitidos_visiveis": [
+        "adobe-aem.map.fastly.net",
+        "publish-p128342-e1259725.adobeaemcloud.com"
+      ]
+    },
+    {
+      "site": "Porsche Brasil",
+      "url": "https://www.porsche.com/brazil/pt/",
+      "evidencia": "prints/porsche.png",
+      "bloqueios_visiveis": [
+        {
+          "host": "bam.eu01.nr-data.net",
+          "tipo": "XHR POST",
+          "filtro": "||nr-data.net^",
+          "observacao": "Duas linhas vermelhas do Logger para endpoints de New Relic."
+        }
+      ],
+      "permitidos_visiveis": [
+        "a89.b.akamai.net",
+        "cdn.ui.porsche.com",
+        "nav.porsche.com"
+      ]
+    },
+    {
+      "site": "Shopee Brasil",
+      "url": "https://shopee.com.br/",
+      "evidencia": "prints/shopee.png",
+      "bloqueios_visiveis": [
+        {
+          "host": "shopee.com.br",
+          "tipo": "XHR POST",
+          "filtro": "||shopee.*/__t_$xhr",
+          "observacao": "Linha vermelha do Logger para a chamada /__t_."
+        },
+        {
+          "host": "secreporter.susercontent.com",
+          "tipo": "csp_report POST",
+          "filtro": "no-csp-reports: * true",
+          "observacao": "Linha vermelha do Logger para o relatório CSP."
+        }
+      ],
+      "permitidos_visiveis": [
+        "zshopee.v.baishan-cloud.net",
+        "down-br.img.susercontent.com",
+        "d34rr1bjme6yp3.cloudfront.net",
+        "deo.shoopemobile.com"
+      ]
+    }
+  ]
+}

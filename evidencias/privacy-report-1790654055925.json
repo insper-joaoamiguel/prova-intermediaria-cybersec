@@ -1,0 +1,1669 @@
+{
+  "exportedAt": "2026-09-29T03:54:15.925Z",
+  "methodology": "Coleta local por aba via webRequest, cookies API e instrumentação do contexto da página.",
+  "report": {
+    "tabId": 31,
+    "topUrl": "https://banco.bradesco/html/classic/index.shtm",
+    "topSite": "banco.bradesco",
+    "startedAt": 1790653434906,
+    "lastActivityAt": 1790653436413,
+    "blockingEnabled": false,
+    "blockedCount": 0,
+    "requests": [
+      {
+        "url": "https://banco.bradesco/static/carrossel-banners/carrossel.js",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434933
+      },
+      {
+        "url": "https://banco.bradesco/assets/common/js/rybena-mobile.js",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434934
+      },
+      {
+        "url": "https://banco.bradesco/xEIFL89ffXwo5/ZoHpebBbaN/aDcw/EYDhfSmQfYQNDVSY3E/ByIdCwE/bkYo/akNOR0c",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434934
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/common/img/bra-logo.png",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434935
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/nav-chrome.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434935
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/nav-edge.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434936
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/nav-firefox.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653434936
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9F3WZN",
+        "host": "www.googletagmanager.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435057
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/8THC4-Y3FED-MERWF-ZHKMR-S29L3",
+        "host": "s.go-mpulse.net",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435072
+      },
+      {
+        "url": "https://banco.bradesco/akam/13/4edbb212",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435074
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/icon_seta_v_-01.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435077
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/logo-mobile.png",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435077
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/icon-search.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435078
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/search-modal/financiamento-bg.jpg",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435078
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/search-modal/bradesco-explica.png",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435078
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/search-modal/renegocie-bg.jpg",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435078
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/search-modal/cartoes-bg.jpg",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435078
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/search-modal/investimento-bg.jpg",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435082
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/seta.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435082
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/seta-white.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435083
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/renegociacao-de-dividas.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435083
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/ilustra-cartoes.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435084
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/ilustra-consorcio-1.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435084
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/seguro-dental.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435084
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/bilhete-residencial.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435084
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/ilustra-agora.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435085
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/nao-correntista.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435085
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/online-hire/nao-correntista-hover.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435085
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-fale-conosco.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-2a-via-boleto.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-pagamentos.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-desbloqueio-cartao.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-renegociacao-de-dividas.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/vantagens/icone-seguranca.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435086
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/icon-produtos-servicos.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435087
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/icon-shop.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435087
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/icon-educ-financeira.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435088
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/destaques/background-novidades.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435088
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/busca_icon_mobile_red.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435136
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/icon-bradesco-celular.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435136
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/mega-menu/icon-contato.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435137
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/05-destaque.webp",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435137
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/destaque-2-2.webp",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435137
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/destaque-10.webp",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435137
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/destaque-4.webp",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435137
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&ts=1790653435086",
+        "host": "dpm.demdex.net",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435172
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+        "host": "assets.adobedtm.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435172
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+        "host": "assets.adobedtm.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435173
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/segments/classic/both.min.css",
+        "host": "banco.bradesco",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435178
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/segments/classic/both.min.js",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435178
+      },
+      {
+        "url": "https://d3flklo0seol33.cloudfront.net/6029901/mdmnRnd.js?r=0.46534588118083775",
+        "host": "d3flklo0seol33.cloudfront.net",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435178
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/home/images/bg-busca.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435179
+      },
+      {
+        "url": "https://banco.bradesco/_bm/get_params?type=web-jsto&v=0UmakAdzUAF1BNUsu4U/EKtVEt4CUkRMrJ7PvdoD3n8=&j=AAQAAAAG%2f%2f%2f%2f%2f5h8zMXeVDeumdKsXyDd0wbXm2r1BZ7Ip4tITIYqLtWqk+2d67zq3PjBsx5WRHt0oxcwL4ifhyLT3YMGWHugokw+UjhkfRCmn1%2fT",
+        "host": "banco.bradesco",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435179
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/common/css/ajax-loader.gif",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435186
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/05-destaque-ativo.webp",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435186
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/btn-prev.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435206
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/home/btn-next.svg",
+        "host": "assets.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435207
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/8THC4-Y3FED-MERWF-ZHKMR-S29L3",
+        "host": "s.go-mpulse.net",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435209
+      },
+      {
+        "url": "https://banco.bradesco/assets/common/chatbia/inc/chatbia-route-blocks.json",
+        "host": "banco.bradesco",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435225
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/graphql/execute.json/banco-bradesco/banners-get-banner-by-segmento;segmento=banners-segment:classic-home",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435225
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&d_mid=91253477778751203726596448716855976264&ts=1790653435219",
+        "host": "dpm.demdex.net",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435230
+      },
+      {
+        "url": "https://edge.adobedc.net/ee/v1/interact?configId=69848f08-3b8d-4d9a-b0a0-da889bef15a2&requestId=213edd9f-c8c7-4691-bab8-82691d4134bd",
+        "host": "edge.adobedc.net",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435232
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/classic/svg/cadeado.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435241
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/classic/svg/arrow-right.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435241
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/acessibilidade/classic/icon_acessibilidade.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435241
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/acessibilidade/classic/icon_acessibilidade_weblibras.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435242
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/acessibilidade/classic/icon_acessibilidade_contraste.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435242
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/acessibilidade/classic/icon_acessibilidade_produtos_servicos.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435243
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/acessibilidade/classic/icon_acessibilidade_libras.svg",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435243
+      },
+      {
+        "url": "https://banco.bradesco/static/indisponibilidade/verificar-indisponibilidade.js",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435248
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/linkedin-01.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435249
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/facebook-01.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435249
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/x.png",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435249
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/youtube-01.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435250
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/instagram-01.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435250
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/tiktok-01.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435250
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/common/svg/logo-bradesco.svg",
+        "host": "banco.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435251
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/templates/footer/json/sites-bradesco.json",
+        "host": "banco.bradesco",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435251
+      },
+      {
+        "url": "https://banco.bradesco/static/wcomp/header-footer-v2/assets/templates/footer/json/informacoes-uteis.json",
+        "host": "banco.bradesco",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435252
+      },
+      {
+        "url": "https://bancobradesco.tt.omtrdc.net/rest/v1/delivery?client=bancobradesco&sessionId=5e632c0fb10f4a0d9db30d122e68191f&version=2.11.4",
+        "host": "bancobradesco.tt.omtrdc.net",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435276
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/graphql/execute.json/banco-bradesco/banners-get-banner-by-segmento;segmento=banners-segment:classic-home",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435288
+      },
+      {
+        "url": "https://banco.bradesco/static/carrossel-banners/swiper/swiper-bundle.min.css",
+        "host": "banco.bradesco",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435294
+      },
+      {
+        "url": "https://banco.bradesco/static/carrossel-banners/swiper/swiper-bundle.min.js",
+        "host": "banco.bradesco",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435295
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/banco-bradesco/banners/homes/classic/imagens/Bannerb.ia.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435295
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/banco-bradesco/banners/homes/classic/imagens/Banner_Desktop_Abertura_Conta_MEI_1368x554px_V1.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435296
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/banco-bradesco/banners/homes/classic/imagens/banner-home_abra-conta-digital_1368x554_OP01_V2.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435296
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/banco-bradesco/banners/homes/classic/imagens/ABERTURADECONTAS_COFRINHOS.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435296
+      },
+      {
+        "url": "https://assets.bradesco/content/dam/banco-bradesco/banners/homes/classic/imagens/Isencao_de_anuidade_Banner_Desktop_.webp",
+        "host": "assets.bradesco",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435297
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/experience-fragments/portal_bradesco/componentes/bia/master.html",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435328
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/foundation/clientlibs/main.lc-b4994788cf1eaeed300a0aa7af53f3c8-lc.min.css",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435610
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/clientlibs/clientlib-base.lc-3c3f5dd55b9ba40f3a512eeabe9e111c-lc.min.css",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435611
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/gridContainer/clientlibs.lc-073c9b5a54dcea83bbdf9b8a81f67888-lc.min.css",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435611
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/floatingBia/clientlibs.lc-39e18a795990a20a187b1774ed76b5f5-lc.min.css",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435612
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/clientlibs/clientlib-base.lc-336e6f9ba6481a33084e3309a548c841-lc.min.js",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435616
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/gridContainer/clientlibs.lc-bd374037b0b053f85746f41e605c3387-lc.min.js",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435616
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/content/dam/banco-bradesco/assets/bia/arquivos/Caminho%2065594.png",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435616
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/floatingBia/clientlibs.lc-66aaf86949f1fd355773c0a5aeb7d3d8-lc.min.js",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435616
+      },
+      {
+        "url": "https://publish-p128342-e1259725.adobeaemcloud.com/content/dam/banco-bradesco/assets/bia/arquivos/qrcode-bia%201.png",
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435617
+      },
+      {
+        "url": "https://banco.bradesco/assets/classic/home/images/favicon.ico",
+        "host": "banco.bradesco",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435746
+      },
+      {
+        "url": "https://bancobradesco.tt.omtrdc.net/rest/v1/delivery?client=bancobradesco&sessionId=5e632c0fb10f4a0d9db30d122e68191f&version=2.11.4",
+        "host": "bancobradesco.tt.omtrdc.net",
+        "type": "beacon",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "timeStamp": 1790653435754
+      }
+    ],
+    "domains": [
+      {
+        "host": "banco.bradesco",
+        "siteType": "first-party",
+        "requests": 63,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "stylesheet",
+          "script",
+          "xmlhttprequest",
+          "image",
+          "imageset"
+        ],
+        "examples": [
+          "https://banco.bradesco/assets/common/css/intervencao-neb.css",
+          "https://banco.bradesco/assets/classic/home/css/header.css",
+          "https://banco.bradesco/assets/classic/home/css/styles.css"
+        ]
+      },
+      {
+        "host": "assets.bradesco",
+        "siteType": "third-party",
+        "requests": 49,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "image",
+          "imageset"
+        ],
+        "examples": [
+          "https://assets.bradesco/content/dam/portal-bradesco/assets/common/img/bra-logo.png",
+          "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/nav-chrome.svg",
+          "https://assets.bradesco/content/dam/portal-bradesco/assets/classic/img/nav-edge.svg"
+        ]
+      },
+      {
+        "host": "publish-p128342-e1259725.adobeaemcloud.com",
+        "siteType": "third-party",
+        "requests": 12,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest",
+          "stylesheet",
+          "script",
+          "image"
+        ],
+        "examples": [
+          "https://publish-p128342-e1259725.adobeaemcloud.com/graphql/execute.json/banco-bradesco/banners-get-banner-by-segmento;segmento=banners-segment:classic-home",
+          "https://publish-p128342-e1259725.adobeaemcloud.com/experience-fragments/portal_bradesco/componentes/bia/master.html",
+          "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/foundation/clientlibs/main.lc-b4994788cf1eaeed300a0aa7af53f3c8-lc.min.css"
+        ]
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "siteType": "third-party",
+        "requests": 3,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://assets.adobedtm.com/60fa93e730c9/6a19919a3b74/launch-5e28c5776fc0.min.js",
+          "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+          "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js"
+        ]
+      },
+      {
+        "host": "bancobradesco.tt.omtrdc.net",
+        "siteType": "third-party",
+        "requests": 2,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest",
+          "beacon"
+        ],
+        "examples": [
+          "https://bancobradesco.tt.omtrdc.net/rest/v1/delivery?client=bancobradesco&sessionId=5e632c0fb10f4a0d9db30d122e68191f&version=2.11.4"
+        ]
+      },
+      {
+        "host": "dpm.demdex.net",
+        "siteType": "third-party",
+        "requests": 2,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest"
+        ],
+        "examples": [
+          "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&ts=1790653435086",
+          "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&d_mid=91253477778751203726596448716855976264&ts=1790653435219"
+        ]
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "siteType": "third-party",
+        "requests": 2,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://s.go-mpulse.net/boomerang/8THC4-Y3FED-MERWF-ZHKMR-S29L3"
+        ]
+      },
+      {
+        "host": "d3flklo0seol33.cloudfront.net",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://d3flklo0seol33.cloudfront.net/6029901/mdmnRnd.js?r=0.46534588118083775"
+        ]
+      },
+      {
+        "host": "edge.adobedc.net",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest"
+        ],
+        "examples": [
+          "https://edge.adobedc.net/ee/v1/interact?configId=69848f08-3b8d-4d9a-b0a0-da889bef15a2&requestId=213edd9f-c8c7-4691-bab8-82691d4134bd"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-T9F3WZN"
+        ]
+      }
+    ],
+    "cookies": {
+      "observed": 41,
+      "firstParty": {
+        "total": 40,
+        "session": 10,
+        "persistent": 30
+      },
+      "thirdParty": {
+        "total": 1,
+        "session": 1,
+        "persistent": 0
+      },
+      "visibleAtEnd": 7,
+      "samples": [
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435282
+        },
+        {
+          "name": "AMCV_0E4B1D51658549870A495C1D%40AdobeOrg",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435284
+        },
+        {
+          "name": "AMCVS_0E4B1D51658549870A495C1D%40AdobeOrg",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": true,
+          "removed": true,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435284
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435317
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435317
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435468
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435468
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435469
+        },
+        {
+          "name": "bm_sv",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435469
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435749
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435749
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435749
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435750
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790653435753
+        },
+        {
+          "name": "mbox",
+          "domain": ".banco.bradesco",
+          "host": "banco.bradesco",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790653435754
+        }
+      ]
+    },
+    "storage": {
+      "frame-0": {
+        "frameId": 0,
+        "url": "https://banco.bradesco/html/classic/index.shtm",
+        "localStorage": {
+          "supported": true,
+          "keys": 8,
+          "bytes": 432,
+          "names": [
+            "ak_a",
+            "bmint_t",
+            "ak_ax",
+            "bmint_k",
+            "bmint_e",
+            "tgt:tlm:upper",
+            "bmint_j",
+            "tgt:tlm:lower"
+          ]
+        },
+        "sessionStorage": {
+          "supported": true,
+          "keys": 0,
+          "bytes": 0,
+          "names": []
+        },
+        "indexedDB": {
+          "supported": true,
+          "databases": []
+        },
+        "documentCookieVisible": 6
+      }
+    },
+    "probes": {
+      "total": 111,
+      "byType": {
+        "script-injection": 35,
+        "xhr": 4,
+        "interaction-hook": 65,
+        "fetch": 6,
+        "beacon": 1
+      },
+      "samples": [
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "document"
+          },
+          "timeStamp": 1790653435519
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "pointermove",
+            "target": "document"
+          },
+          "timeStamp": 1790653435519
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435519
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435519
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "keydown",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435519
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435578
+        },
+        {
+          "type": "script-injection",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "src": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/clientlibs/clientlib-base.lc-336e6f9ba6481a33084e3309a548c841-lc.min.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790653435615
+        },
+        {
+          "type": "script-injection",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "src": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/gridContainer/clientlibs.lc-bd374037b0b053f85746f41e605c3387-lc.min.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790653435615
+        },
+        {
+          "type": "script-injection",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "src": "https://publish-p128342-e1259725.adobeaemcloud.com/etc.clientlibs/banco-bradesco/components/portal-bradesco/floatingBia/clientlibs.lc-66aaf86949f1fd355773c0a5aeb7d3d8-lc.min.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790653435616
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435644
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435644
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435644
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "keydown",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435644
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "keydown",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653435644
+        },
+        {
+          "type": "beacon",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "url": "https://bancobradesco.tt.omtrdc.net/rest/v1/delivery?client=bancobradesco&sessionId=5e632c0fb10f4a0d9db30d122e68191f&version=2.11.4",
+            "bytes": null
+          },
+          "timeStamp": 1790653435756
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653436219
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653436219
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "click",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653436219
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "keydown",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653436219
+        },
+        {
+          "type": "interaction-hook",
+          "url": "https://banco.bradesco/html/classic/index.shtm",
+          "data": {
+            "type": "keydown",
+            "target": "window-or-element"
+          },
+          "timeStamp": 1790653436219
+        }
+      ]
+    },
+    "redirects": [
+      {
+        "from": "https://www.googletagmanager.com/gtm.js?id=GTM-T9F3WZN",
+        "to": "moz-extension://440c8ace-7fd9-45b0-be13-03889e1795ec/web-accessible-resources/redirects/google-analytics.js?secret=n0jd9x",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790653435113
+      },
+      {
+        "from": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&ts=1790653435086",
+        "to": "moz-extension://440c8ace-7fd9-45b0-be13-03889e1795ec/web-accessible-resources/redirects/nooptext.js?secret=u735sc",
+        "type": "xmlhttprequest",
+        "siteChanged": false,
+        "timeStamp": 1790653435185
+      },
+      {
+        "from": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=0E4B1D51658549870A495C1D%40AdobeOrg&d_nsid=0&d_mid=91253477778751203726596448716855976264&ts=1790653435219",
+        "to": "moz-extension://440c8ace-7fd9-45b0-be13-03889e1795ec/web-accessible-resources/redirects/nooptext.js?secret=ocfsd6",
+        "type": "xmlhttprequest",
+        "siteChanged": false,
+        "timeStamp": 1790653435234
+      }
+    ],
+    "errors": [
+      {
+        "url": "https://banco.bradesco/akam/13/4edbb212",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790653434952
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/8THC4-Y3FED-MERWF-ZHKMR-S29L3",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790653435170
+      },
+      {
+        "url": "https://banco.bradesco/akam/13/4edbb212",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790653435171
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/8THC4-Y3FED-MERWF-ZHKMR-S29L3",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790653435220
+      },
+      {
+        "url": "https://edge.adobedc.net/ee/v1/interact?configId=69848f08-3b8d-4d9a-b0a0-da889bef15a2&requestId=213edd9f-c8c7-4691-bab8-82691d4134bd",
+        "type": "xmlhttprequest",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790653435271
+      },
+      {
+        "url": "https://bancobradesco.tt.omtrdc.net/rest/v1/delivery?client=bancobradesco&sessionId=5e632c0fb10f4a0d9db30d122e68191f&version=2.11.4",
+        "type": "beacon",
+        "error": "NS_ERROR_DOM_NETWORK_ERR",
+        "timeStamp": 1790653436503
+      }
+    ]
+  }
+}

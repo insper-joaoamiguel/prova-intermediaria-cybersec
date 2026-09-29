@@ -1,0 +1,3415 @@
+{
+  "exportedAt": "2026-09-29T05:09:37.950Z",
+  "methodology": "Coleta local por aba via webRequest, cookies API e instrumentação do contexto da página.",
+  "report": {
+    "tabId": 43,
+    "topUrl": "https://shopee.com.br/",
+    "topSite": "shopee.com.br",
+    "navigationStartUrl": "https://shopee.com.br/",
+    "startedAt": 1790658556125,
+    "lastActivityAt": 1790658576951,
+    "blockingEnabled": true,
+    "blockedCount": 1,
+    "requests": [
+      {
+        "requestId": "41916",
+        "url": "https://shopee.com.br/api/v4/abtest/traffic/get_web_experiments",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-headers",
+          "access-control-allow-methods",
+          "access-control-allow-credentials",
+          "access-control-expose-headers",
+          "set-cookie",
+          "x-request-id",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658558544
+      },
+      {
+        "requestId": "41917",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.72e6bd12dd0cb465.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558545
+      },
+      {
+        "requestId": "41918",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/65.938dfe5f06dab286.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558545
+      },
+      {
+        "requestId": "41919",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/558.55f95de147b462f2.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558545
+      },
+      {
+        "requestId": "41920",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/515.4e055cc94413e626.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558546
+      },
+      {
+        "requestId": "41921",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsummary.f20d2f7f93beead7.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558546
+      },
+      {
+        "requestId": "41917",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.72e6bd12dd0cb465.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558548
+      },
+      {
+        "requestId": "41918",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/65.938dfe5f06dab286.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558551
+      },
+      {
+        "requestId": "41919",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/558.55f95de147b462f2.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558551
+      },
+      {
+        "requestId": "41920",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/515.4e055cc94413e626.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558551
+      },
+      {
+        "requestId": "41921",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsummary.f20d2f7f93beead7.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558553
+      },
+      {
+        "requestId": "41922",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820li-mrzb72lddczp9a_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558557
+      },
+      {
+        "requestId": "41923",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820me-mqo6x1rc17ggd2_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558558
+      },
+      {
+        "requestId": "41924",
+        "url": "https://down-br.img.susercontent.com/file/sg-11134201-825b7-mrvce6al96v9c0_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558558
+      },
+      {
+        "requestId": "41925",
+        "url": "https://down-br.img.susercontent.com/file/sg-11134201-8257y-mq7pxoy9i1a933_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558559
+      },
+      {
+        "requestId": "41926",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820m5-mnzql6q4h5vlf5_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558559
+      },
+      {
+        "requestId": "41927",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820lb-mnygwkocjg1s12_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558560
+      },
+      {
+        "requestId": "41922",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820li-mrzb72lddczp9a_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558580
+      },
+      {
+        "requestId": "41923",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820me-mqo6x1rc17ggd2_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "age",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558580
+      },
+      {
+        "requestId": "41924",
+        "url": "https://down-br.img.susercontent.com/file/sg-11134201-825b7-mrvce6al96v9c0_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558580
+      },
+      {
+        "requestId": "41925",
+        "url": "https://down-br.img.susercontent.com/file/sg-11134201-8257y-mq7pxoy9i1a933_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558581
+      },
+      {
+        "requestId": "41926",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820m5-mnzql6q4h5vlf5_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558581
+      },
+      {
+        "requestId": "41927",
+        "url": "https://down-br.img.susercontent.com/file/br-11134207-820lb-mnygwkocjg1s12_tn",
+        "host": "down-br.img.susercontent.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "age",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558581
+      },
+      {
+        "requestId": "41928",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "other",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558582
+      },
+      {
+        "requestId": "41929",
+        "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col115.1755192903.json",
+        "host": "deo.shopeemobile.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558599
+      },
+      {
+        "requestId": "41930",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/2bfe4583a4160409.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558599
+      },
+      {
+        "requestId": "41931",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/dc1f1cc77c05e73a.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558600
+      },
+      {
+        "requestId": "41928",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "other",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558604
+      },
+      {
+        "requestId": "41929",
+        "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col115.1755192903.json",
+        "host": "deo.shopeemobile.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558606
+      },
+      {
+        "requestId": "41930",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/2bfe4583a4160409.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558606
+      },
+      {
+        "requestId": "41931",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/dc1f1cc77c05e73a.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558607
+      },
+      {
+        "requestId": "41932",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/5d2f3b01c0e4e096.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558726
+      },
+      {
+        "requestId": "41933",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/d45d47809036477d.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558726
+      },
+      {
+        "requestId": "41932",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/5d2f3b01c0e4e096.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558729
+      },
+      {
+        "requestId": "41933",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/d45d47809036477d.png",
+        "host": "deo.shopeemobile.com",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558729
+      },
+      {
+        "requestId": "41934",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/HotWordList.a12c65632d57be71.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558747
+      },
+      {
+        "requestId": "41935",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CustomFooter.3f01145dad7f3637.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558747
+      },
+      {
+        "requestId": "41934",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/HotWordList.a12c65632d57be71.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558749
+      },
+      {
+        "requestId": "41935",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CustomFooter.3f01145dad7f3637.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558749
+      },
+      {
+        "requestId": "41936",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/TrendingLinks.ca57c4f8a1620583.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558753
+      },
+      {
+        "requestId": "41937",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CategorySiteMap.9f73622b16473417.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558755
+      },
+      {
+        "requestId": "41938",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/InformationBlockBR.ecc4147f54a51bbb.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558772
+      },
+      {
+        "requestId": "41936",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/TrendingLinks.ca57c4f8a1620583.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558773
+      },
+      {
+        "requestId": "41937",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CategorySiteMap.9f73622b16473417.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558773
+      },
+      {
+        "requestId": "41938",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/InformationBlockBR.ecc4147f54a51bbb.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658558776
+      },
+      {
+        "requestId": "41939",
+        "url": "https://shopee.com.br/api/v4/pages/get_footer_layout",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658558845
+      },
+      {
+        "requestId": "41939",
+        "url": "https://shopee.com.br/api/v4/pages/get_footer_layout",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "vary",
+          "set-cookie",
+          "x-request-id",
+          "alt-svc",
+          "content-encoding",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658558848
+      },
+      {
+        "requestId": "41940",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7328.9dfd4122bbf2664c.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562294
+      },
+      {
+        "requestId": "41940",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7328.9dfd4122bbf2664c.2023.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562303
+      },
+      {
+        "requestId": "41941",
+        "url": "https://shopee.com.br/pcmall-assets/assets/af388a216703068c.worker.js",
+        "host": "shopee.com.br",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562323
+      },
+      {
+        "requestId": "41941",
+        "url": "https://shopee.com.br/pcmall-assets/assets/af388a216703068c.worker.js",
+        "host": "shopee.com.br",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "cache-control",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-allow-origin",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "timing-allow-origin",
+          "x-origin",
+          "x-request-id",
+          "vary",
+          "x-cache",
+          "via",
+          "x-amz-cf-pop",
+          "x-amz-cf-id",
+          "age",
+          "content-security-policy-report-only",
+          "x-cdn",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658562339
+      },
+      {
+        "requestId": "41942",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/498370c318b4125b.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562356
+      },
+      {
+        "requestId": "41942",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/498370c318b4125b.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562360
+      },
+      {
+        "requestId": "41944",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/c47171ff8d874660.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562368
+      },
+      {
+        "requestId": "41944",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/c47171ff8d874660.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562376
+      },
+      {
+        "requestId": "41946",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820mh-mtiblddcbchte6@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562379
+      },
+      {
+        "requestId": "41946",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820mh-mtiblddcbchte6@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "age",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562386
+      },
+      {
+        "requestId": "41947",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f8360a02d4d73558.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562387
+      },
+      {
+        "requestId": "41947",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f8360a02d4d73558.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562396
+      },
+      {
+        "requestId": "41949",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a47e8a314a8964ff.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562406
+      },
+      {
+        "requestId": "41949",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a47e8a314a8964ff.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562417
+      },
+      {
+        "requestId": "41951",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b09e4792358d55e8.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562424
+      },
+      {
+        "requestId": "41951",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b09e4792358d55e8.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562434
+      },
+      {
+        "requestId": "41953",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/6232a4efff7c2452.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562444
+      },
+      {
+        "requestId": "41953",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/6232a4efff7c2452.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562457
+      },
+      {
+        "requestId": "41955",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/be473941fc7d21ca.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562466
+      },
+      {
+        "requestId": "41955",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/be473941fc7d21ca.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562477
+      },
+      {
+        "requestId": "41957",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/ccff5c32bba357f3.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562488
+      },
+      {
+        "requestId": "41957",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/ccff5c32bba357f3.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562560
+      },
+      {
+        "requestId": "41959",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/1bf0ee2131d23416.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562567
+      },
+      {
+        "requestId": "41959",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/1bf0ee2131d23416.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562574
+      },
+      {
+        "requestId": "41961",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/c199fc3883d9a3b0.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562580
+      },
+      {
+        "requestId": "41961",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/c199fc3883d9a3b0.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562586
+      },
+      {
+        "requestId": "41963",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d73e023b3d64a7b1.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562590
+      },
+      {
+        "requestId": "41963",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d73e023b3d64a7b1.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562595
+      },
+      {
+        "requestId": "41965",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/34f1685a10f23b16.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562601
+      },
+      {
+        "requestId": "41965",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/34f1685a10f23b16.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562607
+      },
+      {
+        "requestId": "41967",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/c2865360d501cfc8.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562610
+      },
+      {
+        "requestId": "41967",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/c2865360d501cfc8.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562620
+      },
+      {
+        "requestId": "41969",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/1e95994e2dd94203.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562629
+      },
+      {
+        "requestId": "41969",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/1e95994e2dd94203.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562637
+      },
+      {
+        "requestId": "41971",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/8cbb336ce82e9660.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562643
+      },
+      {
+        "requestId": "41971",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/8cbb336ce82e9660.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562650
+      },
+      {
+        "requestId": "41973",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/beb565bb7ac50764.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562663
+      },
+      {
+        "requestId": "41973",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/beb565bb7ac50764.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562666
+      },
+      {
+        "requestId": "41975",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658562672
+      },
+      {
+        "requestId": "41975",
+        "url": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "host": "deo.shopeemobile.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-length",
+          "x-ratelimit-limit",
+          "x-ratelimit-remaining",
+          "access-control-expose-headers",
+          "content-encoding",
+          "etag",
+          "last-modified",
+          "originalmd5",
+          "vary",
+          "x-origin",
+          "x-request-id",
+          "cache-control",
+          "date",
+          "x-cache",
+          "content-type",
+          "content-security-policy-report-only",
+          "timing-allow-origin",
+          "access-control-allow-origin",
+          "x-cdn",
+          "x-check-cacheable",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658562680
+      },
+      {
+        "requestId": "41978",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658563448
+      },
+      {
+        "requestId": "41978",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-methods",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658563454
+      },
+      {
+        "requestId": "41979",
+        "url": "https://shopee.com.br/api/v4/web/subcart",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-headers",
+          "access-control-allow-methods",
+          "access-control-allow-credentials",
+          "access-control-expose-headers",
+          "set-cookie",
+          "x-request-id",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658566967
+      },
+      {
+        "requestId": "41980",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820m7-mtibldbwf56o58@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658567884
+      },
+      {
+        "requestId": "41980",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820m7-mtibldbwf56o58@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "age",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658567890
+      },
+      {
+        "requestId": "41981",
+        "url": "https://dem.shopee.com/dem/entrance/v1/apps/pc-promotion/tags/web-performance/event/json",
+        "host": "dem.shopee.com",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "content-encoding",
+          "access-control-allow-origin",
+          "vary",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658568547
+      },
+      {
+        "requestId": "41982",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658568957
+      },
+      {
+        "requestId": "41982",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-methods",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658568959
+      },
+      {
+        "requestId": "41983",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820m4-mtiblddwx0cjc4@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658573391
+      },
+      {
+        "requestId": "41983",
+        "url": "https://down-br.img.susercontent.com/file/br-11134258-820m4-mtiblddwx0cjc4@resize_w1594_nl.webp",
+        "host": "down-br.img.susercontent.com",
+        "type": "imageset",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "etag",
+          "server",
+          "content-type",
+          "x-mms-processor",
+          "x-mms-request-id",
+          "age",
+          "cache-control",
+          "content-length",
+          "accept-ranges",
+          "x-cdn",
+          "access-control-allow-origin",
+          "date",
+          "eo-log-uuid",
+          "x-cache",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658573396
+      },
+      {
+        "requestId": "41984",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790658574599
+      },
+      {
+        "requestId": "41984",
+        "url": "https://shopee.com.br/__t__",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-methods",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658574618
+      },
+      {
+        "requestId": "41985",
+        "url": "https://shopee.com.br/api/v4/web/subcart",
+        "host": "shopee.com.br",
+        "type": "xmlhttprequest",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "content-length",
+          "access-control-allow-origin",
+          "access-control-allow-headers",
+          "access-control-allow-methods",
+          "access-control-allow-credentials",
+          "access-control-expose-headers",
+          "set-cookie",
+          "x-request-id",
+          "alt-svc",
+          "x-firefox-http3"
+        ],
+        "timeStamp": 1790658576949
+      }
+    ],
+    "domains": [
+      {
+        "host": "deo.shopeemobile.com",
+        "siteType": "third-party",
+        "requests": 293,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script",
+          "xmlhttprequest",
+          "image",
+          "other",
+          "imageset"
+        ],
+        "examples": [
+          "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.45f8169538ff924c.2023.js",
+          "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/entry-modules.27d99f0c77c39cda.2023.js",
+          "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.967efd39353b03b1.2023.js"
+        ]
+      },
+      {
+        "host": "down-br.img.susercontent.com",
+        "siteType": "third-party",
+        "requests": 106,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "imageset",
+          "image"
+        ],
+        "examples": [
+          "https://down-br.img.susercontent.com/file/br-11134258-81z1k-mi1qt60snklef7@resize_w1594_nl.webp",
+          "https://down-br.img.susercontent.com/file/br-11134258-820lt-mtijbrzwwcn5cb@resize_w1594_nl.webp",
+          "https://down-br.img.susercontent.com/file/br-11134258-81ztc-mk4bvy3a9qf69e@resize_w796_nl.webp"
+        ]
+      },
+      {
+        "host": "shopee.com.br",
+        "siteType": "first-party",
+        "requests": 45,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest",
+          "script"
+        ],
+        "examples": [
+          "https://shopee.com.br/api/v4/account/subaccount",
+          "https://shopee.com.br/api/v4/account/cookie_get_preferences?version=1",
+          "https://shopee.com.br/api/v4/account/basic/get_payment_info"
+        ]
+      },
+      {
+        "host": "vlibras.gov.br",
+        "siteType": "third-party",
+        "requests": 6,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest",
+          "image"
+        ],
+        "examples": [
+          "https://vlibras.gov.br/app/vlibras-plugin.js",
+          "https://vlibras.gov.br/app/assets/images/vlibras-popup.webp",
+          "https://vlibras.gov.br/app/assets/images/vlibras-access.svg"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "siteType": "third-party",
+        "requests": 3,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest",
+          "image"
+        ],
+        "examples": [
+          "https://cdn.jsdelivr.net/gh/spbgovbr-vlibras/vlibras-portal@v7.12.2/app/vlibras-plugin.js",
+          "https://cdn.jsdelivr.net/gh/spbgovbr-vlibras/vlibras-portal@v7.12.2/app/assets/images/vlibras-popup.webp",
+          "https://cdn.jsdelivr.net/gh/spbgovbr-vlibras/vlibras-portal@v7.12.2/app/assets/images/vlibras-access.svg"
+        ]
+      },
+      {
+        "host": "df.infra.shopee.com.br",
+        "siteType": "first-party",
+        "requests": 2,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest"
+        ],
+        "examples": [
+          "https://df.infra.shopee.com.br/v2/shpsec/web/report"
+        ]
+      },
+      {
+        "host": "dem.shopee.com",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "xmlhttprequest"
+        ],
+        "examples": [
+          "https://dem.shopee.com/dem/entrance/v1/apps/pc-promotion/tags/web-performance/event/json"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 1,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF"
+        ]
+      }
+    ],
+    "cookies": {
+      "observed": 181,
+      "firstParty": {
+        "total": 181,
+        "session": 4,
+        "persistent": 177
+      },
+      "thirdParty": {
+        "total": 0,
+        "session": 0,
+        "persistent": 0
+      },
+      "visibleAtEnd": 19,
+      "samples": [
+        {
+          "name": "SPC_R_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_R_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_R_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_R_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658567126
+        },
+        {
+          "name": "SPC_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658567127
+        },
+        {
+          "name": "SPC_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658567127
+        },
+        {
+          "name": "SPC_SI",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658567127
+        },
+        {
+          "name": "SPC_SI",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658567127
+        },
+        {
+          "name": "SPC_SI",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658577106
+        },
+        {
+          "name": "SPC_SI",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658577106
+        },
+        {
+          "name": "SPC_R_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658577106
+        },
+        {
+          "name": "SPC_R_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658577106
+        },
+        {
+          "name": "SPC_R_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        },
+        {
+          "name": "SPC_R_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        },
+        {
+          "name": "SPC_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        },
+        {
+          "name": "SPC_T_ID",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        },
+        {
+          "name": "SPC_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": true,
+          "cause": "overwrite",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        },
+        {
+          "name": "SPC_T_IV",
+          "domain": ".shopee.com.br",
+          "host": "shopee.com.br",
+          "session": false,
+          "removed": false,
+          "cause": "explicit",
+          "siteType": "first-party",
+          "timeStamp": 1790658577107
+        }
+      ]
+    },
+    "storage": {
+      "frame-0": {
+        "frameId": 0,
+        "url": "https://shopee.com.br/",
+        "localStorage": {
+          "supported": true,
+          "keys": 13,
+          "bytes": 96311,
+          "names": [
+            "mdap_persisttk_pc-promotion_live_persisttk",
+            "sp_ftv2_cache",
+            "REC7iLP4Q",
+            "persist:topProducts",
+            "_apms_sdk_fingerprint",
+            "__WIR_SZ_UNIQ_DC",
+            "@shopee/rcmd-top-product-clusters",
+            "shopee_webUnique_ccd",
+            "persist:notificationSummary",
+            "_sapid",
+            "__abtest__",
+            "persist:notificationCommon",
+            "mdap_persisttk_pc-platform_live_persisttk"
+          ]
+        },
+        "sessionStorage": {
+          "supported": true,
+          "keys": 15,
+          "bytes": 1956,
+          "names": [
+            "@shopee-ac/tracking_id",
+            "@shopee-ac/should_replace_history",
+            "@shopee-ac/scene",
+            "REC7iLP4Q",
+            "@shopee/rcmd-top-product-image-index",
+            "ds",
+            "@shopee-ac/redirect_type",
+            "_sapid",
+            "@shopee-ac/redirect_url",
+            "shopee_webUnique_ccd",
+            "@shopee-ac/app_key",
+            "OPESKEDCVSD",
+            "@shopee/global-search-session-id",
+            "@shopee/security-theme",
+            "@shopee-ac/client_id"
+          ]
+        },
+        "indexedDB": {
+          "supported": true,
+          "databases": [
+            {
+              "name": "test",
+              "version": 3
+            }
+          ]
+        },
+        "documentCookieVisible": 14
+      }
+    },
+    "storagePartitioning": {
+      "origins": [
+        {
+          "origin": "https://shopee.com.br",
+          "site": "shopee.com.br",
+          "thirdParty": false,
+          "localKeys": 13,
+          "sessionKeys": 15,
+          "indexedDb": 1,
+          "frames": 1
+        }
+      ],
+      "firstPartyOrigins": 1,
+      "thirdPartyOrigins": 0,
+      "thirdPartyWithStorage": 0,
+      "interpretation": "Nenhuma origem de terceira parte com armazenamento observável nesta aba."
+    },
+    "probes": {
+      "total": 250,
+      "byType": {
+        "script-injection": 67,
+        "interaction-hook": 65,
+        "fetch": 14,
+        "canvas": 101,
+        "storage-access": 1,
+        "storage-access-result": 1,
+        "xhr": 1
+      },
+      "samples": [
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/230.d88d54613af40df7.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557606
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/970.b2b56b633cc0e5c7.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557606
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/884.f42878e4b5a92082.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/pcmall-rcmd-home-top-products-module.83df30f7bd6ea6b0.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/runtime.33bab1f221608dde.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/412.32688d491eaaf082.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/978.fec4b06e7092368c.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/262.a07b945d9257c4e2.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/241.1d557e7d38654c46.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/423.ae735fabf4182b75.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/pcmall-flashsale-entry.66013afb9acd4495.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557607
+        },
+        {
+          "type": "fetch",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/52930/asset-BR-live.b010e18d266bbf5b4e51af95e440c700.json",
+            "method": "GET"
+          },
+          "timeStamp": 1790658557619
+        },
+        {
+          "type": "fetch",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col119.1755192903.json",
+            "method": "GET"
+          },
+          "timeStamp": 1790658557710
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/dynamic-experiment/browser-signals/bundle.fa90a8c0ee0ac35e6f7272cc73ae1bac08607861c7bccfc40658810cac222c12.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557712
+        },
+        {
+          "type": "fetch",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col57.1755192889.json",
+            "method": "GET"
+          },
+          "timeStamp": 1790658557727
+        },
+        {
+          "type": "fetch",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col34.1779258670.json",
+            "method": "GET"
+          },
+          "timeStamp": 1790658557727
+        },
+        {
+          "type": "fetch",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "url": "https://deo.shopeemobile.com/shopee/stm-sg-live/shopee-pcmall-live-sg/pt-br.col122.1755192903.json",
+            "method": "GET"
+          },
+          "timeStamp": 1790658557727
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/runtime.ab3dd121f089b373.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557747
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/957.62e79bc34803ad8f.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557748
+        },
+        {
+          "type": "script-injection",
+          "url": "https://shopee.com.br/",
+          "data": {
+            "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/462.065fa6ea45fad088.2023.js",
+            "inline": false,
+            "snippet": ""
+          },
+          "timeStamp": 1790658557748
+        }
+      ]
+    },
+    "redirects": [
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f8360a02d4d73558.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f8360a02d4d73558.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562394
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a47e8a314a8964ff.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a47e8a314a8964ff.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562415
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b09e4792358d55e8.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/b09e4792358d55e8.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562432
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/6232a4efff7c2452.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/6232a4efff7c2452.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562454
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/be473941fc7d21ca.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/be473941fc7d21ca.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562474
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/ccff5c32bba357f3.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/ccff5c32bba357f3.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562558
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/1bf0ee2131d23416.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/1bf0ee2131d23416.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562573
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/c199fc3883d9a3b0.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/homepagefe/c199fc3883d9a3b0.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562585
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d73e023b3d64a7b1.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d73e023b3d64a7b1.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562594
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/34f1685a10f23b16.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/rcmd/34f1685a10f23b16.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562606
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/c2865360d501cfc8.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/flashsale/c2865360d501cfc8.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562617
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/1e95994e2dd94203.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/1e95994e2dd94203.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562636
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/8cbb336ce82e9660.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/8cbb336ce82e9660.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562649
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/beb565bb7ac50764.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/beb565bb7ac50764.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562665
+      },
+      {
+        "from": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "to": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/a2d24b0f64f938d6.2023.tr.js",
+        "type": "script",
+        "siteChanged": false,
+        "timeStamp": 1790658562679
+      },
+      {
+        "from": "https://shopee.com.br/__t__",
+        "to": "https://shopee.com.br/__t__",
+        "type": "xmlhttprequest",
+        "siteChanged": false,
+        "timeStamp": 1790658563453
+      },
+      {
+        "from": "https://down-br.img.susercontent.com/file/br-11134258-820m7-mtibldbwf56o58@resize_w1594_nl.webp",
+        "to": "https://down-br.img.susercontent.com/file/br-11134258-820m7-mtibldbwf56o58@resize_w1594_nl.webp",
+        "type": "imageset",
+        "siteChanged": false,
+        "timeStamp": 1790658567888
+      },
+      {
+        "from": "https://shopee.com.br/__t__",
+        "to": "https://shopee.com.br/__t__",
+        "type": "xmlhttprequest",
+        "siteChanged": false,
+        "timeStamp": 1790658568958
+      },
+      {
+        "from": "https://down-br.img.susercontent.com/file/br-11134258-820m4-mtiblddwx0cjc4@resize_w1594_nl.webp",
+        "to": "https://down-br.img.susercontent.com/file/br-11134258-820m4-mtiblddwx0cjc4@resize_w1594_nl.webp",
+        "type": "imageset",
+        "siteChanged": false,
+        "timeStamp": 1790658573394
+      },
+      {
+        "from": "https://shopee.com.br/__t__",
+        "to": "https://shopee.com.br/__t__",
+        "type": "xmlhttprequest",
+        "siteChanged": false,
+        "timeStamp": 1790658574616
+      }
+    ],
+    "bounceSignals": [
+      {
+        "from": "https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF",
+        "to": "moz-extension://440c8ace-7fd9-45b0-be13-03889e1795ec/web-accessible-resources/redirects/google-analytics.js?secret=ubi0uz",
+        "type": "script",
+        "returnsToNavigationSite": false,
+        "crossSite": true,
+        "timeStamp": 1790658557132
+      }
+    ],
+    "syncSignals": [
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF",
+        "host": "www.googletagmanager.com",
+        "keys": [
+          "id"
+        ],
+        "type": "script",
+        "reason": "known-tracker-with-identifier",
+        "timeStamp": 1790658557126
+      }
+    ],
+    "hijackingSignals": [
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/462.065fa6ea45fad088.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658557748
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dd/pcmall-dd-home-module.33cbc2156980718b.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658557749
+      },
+      {
+        "kind": "global-change",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "names": [
+            "__sap_hook_fetch",
+            "__sap_hook_xhr",
+            "__fu_hook"
+          ]
+        },
+        "timeStamp": 1790658558244
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "",
+          "inline": true,
+          "snippet": "(function(){var self = window; (()=>{let e=window.VLibrasWidget=Object.assign({path:`https://vlibras.gov.br/app`},window"
+        },
+        "timeStamp": 1790658558282
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/NotificationSummary.f36028254c2bec5b.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558420
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.72e6bd12dd0cb465.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558559
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/65.938dfe5f06dab286.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558559
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/558.55f95de147b462f2.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558559
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/515.4e055cc94413e626.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558559
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsummary.f20d2f7f93beead7.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558559
+      },
+      {
+        "kind": "interaction-hook",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "type": "click",
+          "target": "window-or-element"
+        },
+        "timeStamp": 1790658558743
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/HotWordList.a12c65632d57be71.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558745
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CustomFooter.3f01145dad7f3637.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558751
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/TrendingLinks.ca57c4f8a1620583.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558758
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/CategorySiteMap.9f73622b16473417.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558767
+      },
+      {
+        "kind": "interaction-hook",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "type": "click",
+          "target": "window-or-element"
+        },
+        "timeStamp": 1790658558767
+      },
+      {
+        "kind": "interaction-hook",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "type": "click",
+          "target": "window-or-element"
+        },
+        "timeStamp": 1790658558767
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/InformationBlockBR.ecc4147f54a51bbb.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658558772
+      },
+      {
+        "kind": "global-change",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "names": [
+            "__sap_hook_fetch",
+            "__sap_hook_xhr",
+            "__fu_hook"
+          ]
+        },
+        "timeStamp": 1790658561137
+      },
+      {
+        "kind": "script-injection",
+        "url": "https://shopee.com.br/",
+        "data": {
+          "src": "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7328.9dfd4122bbf2664c.2023.js",
+          "inline": false,
+          "snippet": ""
+        },
+        "timeStamp": 1790658562291
+      }
+    ],
+    "leakSignals": [],
+    "customBlockList": [],
+    "privacyScore": {
+      "score": 57,
+      "grade": "D",
+      "penalty": 43,
+      "criteria": [
+        {
+          "id": "third-party-domains",
+          "weight": 20,
+          "observed": 6,
+          "penalty": 12,
+          "explanation": "6 domínio(s) de terceira parte observados."
+        },
+        {
+          "id": "third-party-cookies",
+          "weight": 20,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 cookie(s) de terceira parte observados."
+        },
+        {
+          "id": "storage",
+          "weight": 15,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 origem(ns) de terceira parte com armazenamento observável."
+        },
+        {
+          "id": "fingerprinting",
+          "weight": 15,
+          "observed": 233,
+          "penalty": 15,
+          "explanation": "101 canvas, 65 hook(s) de interação e 67 alteração(ões) de superfície global."
+        },
+        {
+          "id": "sync-and-bounce",
+          "weight": 10,
+          "observed": 2,
+          "penalty": 6,
+          "explanation": "1 sync e 1 bounce candidate(s)."
+        },
+        {
+          "id": "hijacking",
+          "weight": 10,
+          "observed": 152,
+          "penalty": 10,
+          "explanation": "152 sinal(is) de canal persistente, hook ou script injetado."
+        },
+        {
+          "id": "data-leaks",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 candidato(s) a vazamento para terceira parte."
+        }
+      ],
+      "methodology": {
+        "version": "1.0",
+        "scale": "0-100; maior valor significa menor exposição observada",
+        "criteria": [
+          {
+            "id": "third-party-domains",
+            "label": "Domínios de terceira parte",
+            "weight": 20,
+            "justification": "Cada origem externa aumenta a superfície de compartilhamento e é comparada com a lista de rastreadores observados."
+          },
+          {
+            "id": "third-party-cookies",
+            "label": "Cookies de terceira parte",
+            "weight": 20,
+            "justification": "Cookies recebidos por Set-Cookie ou pela API de cookies recebem maior penalidade quando são persistentes."
+          },
+          {
+            "id": "storage",
+            "label": "Armazenamento fora da origem",
+            "weight": 15,
+            "justification": "localStorage, sessionStorage e IndexedDB em frames de terceira parte representam persistência adicional."
+          },
+          {
+            "id": "fingerprinting",
+            "label": "Fingerprinting e hooks de interação",
+            "weight": 15,
+            "justification": "Canvas, mudanças globais e listeners de interação são sinais comportamentais; a intenção deve ser confirmada no teste."
+          },
+          {
+            "id": "sync-and-bounce",
+            "label": "Cookie sync e bounce tracking",
+            "weight": 10,
+            "justification": "Identificadores em requisições cross-site e redirects entre sites permitem correlação de navegação."
+          },
+          {
+            "id": "hijacking",
+            "label": "Hijacking, polling e canais persistentes",
+            "weight": 10,
+            "justification": "WebSocket, EventSource, polling repetido, scripts injetados e alterações de globais podem indicar hook ou abuso."
+          },
+          {
+            "id": "data-leaks",
+            "label": "Vazamento de dados para terceiros",
+            "weight": 10,
+            "justification": "Chaves de dados em requisições cross-site ou endpoints de JS leaks são candidatos a exfiltração."
+          }
+        ]
+      }
+    },
+    "errors": [
+      {
+        "url": "https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/@shopee/tracking-loader@1.2.2.min.js",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790658556761
+      }
+    ]
+  }
+}

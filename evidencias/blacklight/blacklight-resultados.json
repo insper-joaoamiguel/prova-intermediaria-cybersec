@@ -1,0 +1,78 @@
+{
+  "ferramenta": "Blacklight - The Markup",
+  "coletado_em": "2026-09-29",
+  "metodologia": {
+    "localizacao": "California, U.S.",
+    "dispositivo": "Mobile (iPhone emulado)",
+    "cache": "resultado da inspeção exibido pelo Blacklight; a URL final informa force=false",
+    "observacao": "O Blacklight executa uma inspeção automatizada própria. Os resultados são comparativos e não substituem a análise do HAR."
+  },
+  "resultados": [
+    {
+      "site": "Bradesco",
+      "url_analisada": "https://banco.bradesco/html/classic/index.shtm",
+      "url_resultado": "https://themarkup.org/blacklight?url=https%3A%2F%2Fbanco.bradesco%2Fhtml%2Fclassic%2Findex.shtm&device=mobile&location=us-ca&force=false",
+      "horario_exibido": "Sep. 29, 2026, 01:44 ET",
+      "resultado": {
+        "ad_trackers": 11,
+        "cookies_terceiros": 14,
+        "evasao_de_bloqueadores": true,
+        "tecnica_de_evasao": "canvas fingerprinting",
+        "origem_da_tecnica_de_evasao": "banco.bradesco",
+        "session_recording": false,
+        "captura_de_teclas": false,
+        "facebook": true,
+        "tiktok": true,
+        "x_twitter": true,
+        "google_analytics_remarketing": false,
+        "empresas_adtech": ["Adobe", "Alphabet"],
+        "dominios_adtech": ["adobedc.net", "adobedtm.com", "demdex.net", "everesttech.net", "omtrdc.net", "google-analytics.com", "googlesyndication.com", "googletagmanager.com"]
+      },
+      "arquivo_blacklight": "https://mrkp-static-production.themarkup.org/blacklight-us-ca/eb83b5ec491afb2b74ebf214d76975020574fd8f/blacklight-inspection-banco.bradesco.zip"
+    },
+    {
+      "site": "Porsche Brasil",
+      "url_analisada": "https://www.porsche.com/brazil/pt/",
+      "url_resultado": "https://themarkup.org/blacklight?url=https%3A%2F%2Fwww.porsche.com%2Fbrazil%2Fpt%2F&device=mobile&location=us-ca&force=false",
+      "horario_exibido": "Sep. 29, 2026, 01:46 ET",
+      "resultado": {
+        "ad_trackers": 1,
+        "cookies_terceiros": 0,
+        "evasao_de_bloqueadores": false,
+        "tecnica_de_evasao": null,
+        "session_recording": false,
+        "captura_de_teclas": false,
+        "facebook": false,
+        "tiktok": false,
+        "x_twitter": false,
+        "google_analytics_remarketing": false,
+        "empresas_adtech": ["Alphabet", "New Relic"],
+        "dominios_adtech": ["googletagmanager.com", "nr-data.net"]
+      },
+      "arquivo_blacklight": "https://mrkp-static-production.themarkup.org/blacklight-us-ca/e06b0173ab2e772bf35164ab572cba9a82628456/blacklight-inspection-www.porsche.com.zip"
+    },
+    {
+      "site": "Shopee Brasil",
+      "url_analisada": "https://www.shopee.com.br/",
+      "url_resultado": "https://themarkup.org/blacklight?url=https%3A%2F%2Fwww.shopee.com.br%2F&device=mobile&location=us-ca&force=false",
+      "horario_exibido": "Sep. 29, 2026, 01:49 ET",
+      "resultado": {
+        "ad_trackers": 0,
+        "cookies_terceiros": 0,
+        "evasao_de_bloqueadores": true,
+        "tecnica_de_evasao": "canvas fingerprinting",
+        "origem_da_tecnica_de_evasao": "shopeemobile.com",
+        "session_recording": false,
+        "captura_de_teclas": false,
+        "facebook": false,
+        "tiktok": false,
+        "x_twitter": false,
+        "google_analytics_remarketing": false,
+        "empresas_adtech": [],
+        "dominios_adtech": []
+      },
+      "observacao": "A primeira tentativa com https://shopee.com.br/ retornou erro do próprio Blacklight. A variante www concluiu e foi normalizada pelo serviço para shopee.com.br.",
+      "arquivo_blacklight": "https://mrkp-static-production.themarkup.org/blacklight-us-ca/b449b135cf11067681a7f7ea91d1c8d2aea1360e/blacklight-inspection-www.shopee.com.br.zip"
+    }
+  ]
+}

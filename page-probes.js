@@ -119,9 +119,70 @@
     }
   }
 
+  function patchWindowHooks() {
+    const initialNames = new Set(Object.getOwnPropertyNames(window));
+    const suspiciousName = (name) => /(^|_)(analytics|dataLayer|fbq|finger|hook|leak|pixel|track|uid)(_|$)/i.test(name);
+
+    const scanGlobals = () => {
+      const added = Object.getOwnPropertyNames(window)
+        .filter((name) => !initialNames.has(name) && suspiciousName(name));
+      if (added.length) emit("global-change", { names: added.slice(0, 20) });
+    };
+    window.setTimeout(scanGlobals, 2000);
+    window.setTimeout(scanGlobals, 5000);
+
+    const observer = window.MutationObserver && new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        for (const node of mutation.addedNodes) {
+          if (!node || node.nodeType !== 1 || String(node.tagName).toLowerCase() !== "script") continue;
+          emit("script-injection", {
+            src: node.src || "",
+            inline: !node.src,
+            snippet: node.src ? "" : String(node.textContent || "").slice(0, 120)
+          });
+        }
+      }
+    });
+    if (observer && document.documentElement) observer.observe(document.documentElement, { childList: true, subtree: true });
+
+    const objectDefineProperty = Object.defineProperty;
+    try {
+      Object.defineProperty = function patchedDefineProperty(target, property, descriptor) {
+        if (target === window && suspiciousName(String(property))) {
+          emit("global-change", { names: [String(property)], operation: "defineProperty" });
+        }
+        return objectDefineProperty.call(this, target, property, descriptor);
+      };
+    } catch (_error) { /* native property may be read-only */ }
+
+    const eventTarget = window.EventTarget && window.EventTarget.prototype;
+    if (eventTarget && typeof eventTarget.addEventListener === "function") {
+      const originalAddEventListener = eventTarget.addEventListener;
+      try {
+        eventTarget.addEventListener = function patchedAddEventListener(type, listener, options) {
+          if (["beforeinput", "click", "input", "keydown", "mousemove", "pointermove"].includes(String(type).toLowerCase())) {
+            emit("interaction-hook", { type: String(type).toLowerCase(), target: this === document ? "document" : "window-or-element" });
+          }
+          return originalAddEventListener.call(this, type, listener, options);
+        };
+      } catch (_error) { /* native property may be read-only */ }
+    }
+
+    if (window.navigator && typeof window.navigator.sendBeacon === "function") {
+      const originalSendBeacon = window.navigator.sendBeacon.bind(window.navigator);
+      try {
+        window.navigator.sendBeacon = function patchedSendBeacon(url, data) {
+          emit("beacon", { url: describeUrl(url), bytes: data && data.size ? data.size : null });
+          return originalSendBeacon(url, data);
+        };
+      } catch (_error) { /* native property may be read-only */ }
+    }
+  }
+
   patchCanvas();
   patchWebSocket();
   patchEventSource();
   patchFetchAndXhr();
   patchStorageAccess();
+  patchWindowHooks();
 })();

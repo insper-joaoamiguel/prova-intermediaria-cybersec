@@ -21,6 +21,10 @@ const SYNC_QUERY_KEYS = new Set([
   "dclid", "gdpr", "gdpr_consent", "id", "match", "partner_id", "redirect", "sync", "uid", "user_id"
 ]);
 
+const LEAK_QUERY_KEYS = new Set([
+  "address", "credit_card", "email", "message", "name", "password", "phone", "query", "search", "username"
+]);
+
 const tabReports = new Map();
 let blockingEnabled = false;
 let customBlockList = [];
@@ -40,9 +44,12 @@ function emptyReport(tabId) {
     redirects: [],
     bounceSignals: [],
     syncSignals: [],
+    hijackingSignals: [],
+    leakSignals: [],
     errors: [],
     blockedCount: 0,
     knownRequestHosts: new Set(),
+    repeatedEndpoints: new Map(),
     lastActivityAt: Date.now()
   };
 }
@@ -180,6 +187,45 @@ function addSyncSignal(report, details, trackingQuery) {
   });
 }
 
+function addLeakSignal(report, details) {
+  if (!isThirdParty(report.topUrl, details.url)) return;
+  const parsed = safeUrl(details.url);
+  if (!parsed) return;
+  const keys = [...parsed.searchParams.keys()]
+    .map((key) => key.toLowerCase())
+    .filter((key) => LEAK_QUERY_KEYS.has(key));
+  const host = parsed.hostname.toLowerCase();
+  const endpointLooksLikeTest = host.includes("jsleak") || parsed.pathname.toLowerCase().includes("js-leak");
+  if (!keys.length && !endpointLooksLikeTest) return;
+  if (report.leakSignals.length >= MAX_EVENTS_PER_TAB) return;
+  report.leakSignals.push({
+    host,
+    path: parsed.pathname,
+    keys: [...new Set(keys)],
+    endpointLooksLikeTest,
+    type: details.type || "other",
+    timeStamp: details.timeStamp || Date.now()
+  });
+}
+
+function addPersistentChannelSignal(report, details) {
+  if (!isThirdParty(report.topUrl, details.url)) return;
+  if (!["xmlhttprequest", "websocket", "other"].includes(details.type)) return;
+  const parsed = safeUrl(details.url);
+  if (!parsed) return;
+  const endpoint = `${parsed.hostname.toLowerCase()}${parsed.pathname}`;
+  const nextCount = (report.repeatedEndpoints.get(endpoint) || 0) + 1;
+  report.repeatedEndpoints.set(endpoint, nextCount);
+  if (nextCount !== 3 || report.hijackingSignals.length >= MAX_EVENTS_PER_TAB) return;
+  report.hijackingSignals.push({
+    kind: "persistent-polling-candidate",
+    endpoint,
+    count: nextCount,
+    type: details.type,
+    timeStamp: details.timeStamp || Date.now()
+  });
+}
+
 function addRequest(tabId, details, blocked = false) {
   if (tabId < 0 || !details || !details.url) return;
   const report = getReport(tabId);
@@ -187,6 +233,8 @@ function addRequest(tabId, details, blocked = false) {
   const trackingQuery = hasTrackingQuery(details.url);
   addDomain(report, details, blocked, trackingQuery);
   addSyncSignal(report, details, trackingQuery);
+  addLeakSignal(report, details);
+  addPersistentChannelSignal(report, details);
   if (report.requests.length < MAX_REQUESTS_PER_TAB) {
     report.requests.push({
       requestId: details.requestId || "",
@@ -343,7 +391,10 @@ function publicReport(report) {
     redirects: report.redirects.slice(-20),
     bounceSignals: report.bounceSignals.slice(-20),
     syncSignals: report.syncSignals.slice(-20),
+    hijackingSignals: report.hijackingSignals.slice(-20),
+    leakSignals: report.leakSignals.slice(-20),
     customBlockList,
+    privacyScore: typeof calculatePrivacyScore === "function" ? calculatePrivacyScore(report) : null,
     errors: report.errors.slice(-20)
   };
 }
@@ -416,6 +467,17 @@ browser.runtime.onMessage.addListener((message, sender) => {
       type: message.eventType || "unknown", url: message.url || sender.url || report.topUrl,
       data: message.data || {}, timeStamp: Date.now()
     });
+    const hijackingTypes = new Set([
+      "beacon", "eventsource", "global-change", "interaction-hook", "script-injection", "storage-access", "websocket"
+    ]);
+    if (hijackingTypes.has(message.eventType) && report.hijackingSignals.length < MAX_EVENTS_PER_TAB) {
+      report.hijackingSignals.push({
+        kind: message.eventType,
+        url: message.url || sender.url || report.topUrl,
+        data: message.data || {},
+        timeStamp: Date.now()
+      });
+    }
     report.lastActivityAt = Date.now();
     return Promise.resolve({ ok: true });
   }

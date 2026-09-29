@@ -30,6 +30,12 @@ textarea:focus { outline: 1px solid #65d6b0; }
 .metric { padding: 10px 5px; border: 1px solid #293543; border-radius: 9px; background: #151c25; text-align: center; }
 .metric strong { display: block; color: #65d6b0; font-size: 19px; }
 .metric span { display: block; margin-top: 2px; color: #95a4b5; font-size: 10px; }
+.score-card { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; padding: 12px; border: 1px solid #2d574b; border-radius: 10px; background: linear-gradient(135deg, #162b27, #151c25); }
+.score-value { min-width: 58px; text-align: center; }
+.score-value strong { display: block; color: #65d6b0; font-size: 30px; line-height: 1; }
+.score-value span { display: block; margin-top: 4px; color: #f5c878; font-size: 11px; font-weight: 700; }
+.score-copy h2 { margin-bottom: 4px; }
+.score-copy p { margin: 0; color: #9eabba; font-size: 10px; line-height: 1.4; }
 .card { margin-top: 10px; padding: 12px; border: 1px solid #293543; border-radius: 10px; background: #151c25; }
 .custom-card { display: grid; gap: 8px; }
 .compact-card { margin-top: 0; min-height: 100px; }

@@ -1,0 +1,618 @@
+{
+  "exportedAt": "2026-09-29T05:01:03.136Z",
+  "methodology": "Coleta local por aba via webRequest, cookies API e instrumentação do contexto da página.",
+  "report": {
+    "tabId": 37,
+    "topUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+    "topSite": "privacy-test-pages.site",
+    "navigationStartUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+    "startedAt": 1790658021647,
+    "lastActivityAt": 1790658027070,
+    "blockingEnabled": false,
+    "blockedCount": 0,
+    "requests": [
+      {
+        "requestId": "38164",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/style.css",
+        "host": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "etag",
+          "date",
+          "server",
+          "x-powered-by",
+          "access-control-allow-origin",
+          "timing-allow-origin",
+          "server-timing",
+          "accept-ranges",
+          "cache-control",
+          "last-modified"
+        ],
+        "timeStamp": 1790658021669
+      },
+      {
+        "requestId": "38165",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+        "host": "cdnjs.cloudflare.com",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "date",
+          "content-type",
+          "content-length",
+          "cf-cache-status",
+          "access-control-allow-origin",
+          "age",
+          "cache-control",
+          "content-encoding",
+          "last-modified",
+          "vary",
+          "cross-origin-resource-policy",
+          "timing-allow-origin",
+          "x-content-type-options",
+          "cf-cdnjs-via",
+          "x-cdnjs-cache",
+          "strict-transport-security",
+          "report-to",
+          "nel",
+          "server",
+          "cf-ray",
+          "alt-svc",
+          "x-firefox-spdy"
+        ],
+        "timeStamp": 1790658021669
+      },
+      {
+        "requestId": "38166",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/helpers/canvas.js",
+        "host": "privacy-test-pages.site",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "etag",
+          "date",
+          "server",
+          "x-powered-by",
+          "access-control-allow-origin",
+          "timing-allow-origin",
+          "server-timing",
+          "accept-ranges",
+          "cache-control",
+          "last-modified"
+        ],
+        "timeStamp": 1790658021670
+      },
+      {
+        "requestId": "38167",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.js",
+        "host": "privacy-test-pages.site",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "etag",
+          "date",
+          "server",
+          "x-powered-by",
+          "access-control-allow-origin",
+          "timing-allow-origin",
+          "server-timing",
+          "accept-ranges",
+          "cache-control",
+          "last-modified"
+        ],
+        "timeStamp": 1790658021671
+      },
+      {
+        "requestId": "38168",
+        "url": "https://privacy-test-pages.site/helpers/runMenu.js",
+        "host": "privacy-test-pages.site",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "etag",
+          "date",
+          "server",
+          "x-powered-by",
+          "access-control-allow-origin",
+          "timing-allow-origin",
+          "server-timing",
+          "accept-ranges",
+          "cache-control",
+          "last-modified"
+        ],
+        "timeStamp": 1790658021671
+      },
+      {
+        "requestId": "38169",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "host": "privacy-test-pages.site",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 404,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "x-powered-by",
+          "content-security-policy",
+          "x-content-type-options",
+          "content-encoding"
+        ],
+        "timeStamp": 1790658021949
+      },
+      {
+        "requestId": "38170",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/pixel.gif",
+        "host": "privacy-test-pages.site",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 200,
+        "responseHeaderNames": [
+          "content-type",
+          "content-length",
+          "etag",
+          "date",
+          "server",
+          "x-powered-by",
+          "access-control-allow-origin",
+          "timing-allow-origin",
+          "server-timing",
+          "accept-ranges",
+          "cache-control",
+          "last-modified"
+        ],
+        "timeStamp": 1790658026733
+      }
+    ],
+    "domains": [
+      {
+        "host": "privacy-test-pages.site",
+        "siteType": "first-party",
+        "requests": 6,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "stylesheet",
+          "script",
+          "image"
+        ],
+        "examples": [
+          "https://privacy-test-pages.site/privacy-protections/fingerprinting/style.css",
+          "https://privacy-test-pages.site/privacy-protections/fingerprinting/helpers/canvas.js",
+          "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.js"
+        ]
+      },
+      {
+        "host": "cdnjs.cloudflare.com",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"
+        ]
+      }
+    ],
+    "cookies": {
+      "observed": 0,
+      "firstParty": {
+        "total": 0,
+        "session": 0,
+        "persistent": 0
+      },
+      "thirdParty": {
+        "total": 0,
+        "session": 0,
+        "persistent": 0
+      },
+      "visibleAtEnd": 4,
+      "samples": []
+    },
+    "storage": {
+      "frame-0": {
+        "frameId": 0,
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+        "localStorage": {
+          "supported": true,
+          "keys": 1,
+          "bytes": 7,
+          "names": [
+            "data"
+          ]
+        },
+        "sessionStorage": {
+          "supported": true,
+          "keys": 1,
+          "bytes": 7,
+          "names": [
+            "data"
+          ]
+        },
+        "indexedDB": {
+          "supported": true,
+          "databases": [
+            {
+              "name": "data",
+              "version": 1
+            }
+          ]
+        },
+        "documentCookieVisible": 3
+      }
+    },
+    "storagePartitioning": {
+      "origins": [
+        {
+          "origin": "https://privacy-test-pages.site",
+          "site": "privacy-test-pages.site",
+          "thirdParty": false,
+          "localKeys": 1,
+          "sessionKeys": 1,
+          "indexedDb": 1,
+          "frames": 1
+        }
+      ],
+      "firstPartyOrigins": 1,
+      "thirdPartyOrigins": 0,
+      "thirdPartyWithStorage": 0,
+      "interpretation": "Nenhuma origem de terceira parte com armazenamento observável nesta aba."
+    },
+    "probes": {
+      "total": 125,
+      "byType": {
+        "canvas": 125
+      },
+      "samples": [
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026647
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026648
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026648
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026648
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026648
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 2000,
+            "height": 200
+          },
+          "timeStamp": 1790658026648
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 1,
+            "height": 1
+          },
+          "timeStamp": 1790658026867
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "toDataURL",
+            "width": 1,
+            "height": 1
+          },
+          "timeStamp": 1790658026867
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 16,
+            "height": 16
+          },
+          "timeStamp": 1790658026967
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "toDataURL",
+            "width": 16,
+            "height": 16
+          },
+          "timeStamp": 1790658026967
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 16,
+            "height": 16
+          },
+          "timeStamp": 1790658026968
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "getImageData",
+            "width": 16,
+            "height": 16
+          },
+          "timeStamp": 1790658027069
+        },
+        {
+          "type": "canvas",
+          "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+          "data": {
+            "method": "toDataURL",
+            "width": 16,
+            "height": 16
+          },
+          "timeStamp": 1790658027070
+        }
+      ]
+    },
+    "redirects": [],
+    "bounceSignals": [],
+    "syncSignals": [],
+    "hijackingSignals": [],
+    "leakSignals": [],
+    "customBlockList": [],
+    "privacyScore": {
+      "score": 90,
+      "grade": "A",
+      "penalty": 10,
+      "criteria": [
+        {
+          "id": "third-party-domains",
+          "weight": 20,
+          "observed": 1,
+          "penalty": 2,
+          "explanation": "1 domínio(s) de terceira parte observados."
+        },
+        {
+          "id": "third-party-cookies",
+          "weight": 20,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 cookie(s) de terceira parte observados."
+        },
+        {
+          "id": "storage",
+          "weight": 15,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 origem(ns) de terceira parte com armazenamento observável."
+        },
+        {
+          "id": "fingerprinting",
+          "weight": 15,
+          "observed": 125,
+          "penalty": 8,
+          "explanation": "125 canvas, 0 hook(s) de interação e 0 alteração(ões) de superfície global."
+        },
+        {
+          "id": "sync-and-bounce",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 sync e 0 bounce candidate(s)."
+        },
+        {
+          "id": "hijacking",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 sinal(is) de canal persistente, hook ou script injetado."
+        },
+        {
+          "id": "data-leaks",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 candidato(s) a vazamento para terceira parte."
+        }
+      ],
+      "methodology": {
+        "version": "1.0",
+        "scale": "0-100; maior valor significa menor exposição observada",
+        "criteria": [
+          {
+            "id": "third-party-domains",
+            "label": "Domínios de terceira parte",
+            "weight": 20,
+            "justification": "Cada origem externa aumenta a superfície de compartilhamento e é comparada com a lista de rastreadores observados."
+          },
+          {
+            "id": "third-party-cookies",
+            "label": "Cookies de terceira parte",
+            "weight": 20,
+            "justification": "Cookies recebidos por Set-Cookie ou pela API de cookies recebem maior penalidade quando são persistentes."
+          },
+          {
+            "id": "storage",
+            "label": "Armazenamento fora da origem",
+            "weight": 15,
+            "justification": "localStorage, sessionStorage e IndexedDB em frames de terceira parte representam persistência adicional."
+          },
+          {
+            "id": "fingerprinting",
+            "label": "Fingerprinting e hooks de interação",
+            "weight": 15,
+            "justification": "Canvas, mudanças globais e listeners de interação são sinais comportamentais; a intenção deve ser confirmada no teste."
+          },
+          {
+            "id": "sync-and-bounce",
+            "label": "Cookie sync e bounce tracking",
+            "weight": 10,
+            "justification": "Identificadores em requisições cross-site e redirects entre sites permitem correlação de navegação."
+          },
+          {
+            "id": "hijacking",
+            "label": "Hijacking, polling e canais persistentes",
+            "weight": 10,
+            "justification": "WebSocket, EventSource, polling repetido, scripts injetados e alterações de globais podem indicar hook ou abuso."
+          },
+          {
+            "id": "data-leaks",
+            "label": "Vazamento de dados para terceiros",
+            "weight": 10,
+            "justification": "Chaves de dados em requisições cross-site ou endpoints de JS leaks são candidatos a exfiltração."
+          }
+        ]
+      }
+    },
+    "errors": []
+  }
+}

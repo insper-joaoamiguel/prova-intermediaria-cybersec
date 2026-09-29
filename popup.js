@@ -10,6 +10,7 @@
     export: document.querySelector("#export"),
     domainCount: document.querySelector("#domain-count"), thirdPartyCount: document.querySelector("#third-party-count"),
     requestCount: document.querySelector("#request-count"), blockedCount: document.querySelector("#blocked-count"),
+    privacyScore: document.querySelector("#privacy-score"), scoreGrade: document.querySelector("#score-grade"), scoreSummary: document.querySelector("#score-summary"),
     domainStatus: document.querySelector("#domain-status"), domains: document.querySelector("#domains"),
     cookieTotal: document.querySelector("#cookie-total"), cookieSummary: document.querySelector("#cookie-summary"),
     storageTotal: document.querySelector("#storage-total"), storageSummary: document.querySelector("#storage-summary"),
@@ -58,6 +59,7 @@
     const thirdParty = domains.filter((domain) => domain.siteType === "third-party");
     const cookies = report.cookies || { observed: 0, firstParty: {}, thirdParty: {} };
     const probes = report.probes || { total: 0, byType: {} };
+    const score = report.privacyScore || { score: null, grade: "-", criteria: [] };
     const bounceSignals = report.bounceSignals || [];
     const syncSignals = report.syncSignals || [];
     const probeNames = Object.entries(probes.byType || {}).map(([name, count]) => `${name} ${count}`).join(" · ");
@@ -69,6 +71,11 @@
     elements.thirdPartyCount.textContent = thirdParty.length;
     elements.requestCount.textContent = (report.requests || []).length;
     elements.blockedCount.textContent = report.blockedCount || 0;
+    elements.privacyScore.textContent = score.score === null ? "--" : score.score;
+    elements.scoreGrade.textContent = score.score === null ? "aguardando coleta" : `nível ${score.grade}`;
+    elements.scoreSummary.textContent = score.score === null
+      ? "A pontuação usa os sinais observados nesta aba e a metodologia documentada."
+      : `${score.penalty} pontos de exposição distribuídos em ${score.criteria.length} critérios.`;
     elements.domainStatus.textContent = `${thirdParty.length} de terceiros`;
     elements.cookieTotal.textContent = cookies.observed || 0;
     elements.cookieSummary.textContent = `${(cookies.firstParty && cookies.firstParty.total) || 0} 1P · ${(cookies.thirdParty && cookies.thirdParty.total) || 0} 3P · ${(cookies.firstParty && cookies.firstParty.session) || 0} sessão · ${(cookies.firstParty && cookies.firstParty.persistent) || 0} persistentes`;

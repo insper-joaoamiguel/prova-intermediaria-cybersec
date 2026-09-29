@@ -1,0 +1,256 @@
+{
+  "exportedAt": "2026-09-29T04:43:49.435Z",
+  "methodology": "Coleta local por aba via webRequest, cookies API e instrumentação do contexto da página.",
+  "report": {
+    "tabId": 37,
+    "topUrl": "https://privacy-test-pages.site/tracker-reporting/1major-with-surrogate.html",
+    "topSite": "privacy-test-pages.site",
+    "navigationStartUrl": "https://privacy-test-pages.site/tracker-reporting/1major-with-surrogate.html",
+    "startedAt": 1790656983733,
+    "lastActivityAt": 1790656985241,
+    "blockingEnabled": true,
+    "blockedCount": 1,
+    "requests": [
+      {
+        "requestId": "37861",
+        "url": "https://doubleclick.net/instream/ad_status.js",
+        "host": "doubleclick.net",
+        "type": "script",
+        "frameId": 0,
+        "siteType": "third-party",
+        "blocked": true,
+        "trackingQuery": false,
+        "statusCode": null,
+        "responseHeaderNames": [],
+        "timeStamp": 1790656983753
+      },
+      {
+        "requestId": "37862",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "host": "privacy-test-pages.site",
+        "type": "image",
+        "frameId": 0,
+        "siteType": "first-party",
+        "blocked": false,
+        "trackingQuery": false,
+        "statusCode": 404,
+        "responseHeaderNames": [
+          "server",
+          "date",
+          "content-type",
+          "x-powered-by",
+          "content-security-policy",
+          "x-content-type-options",
+          "content-encoding"
+        ],
+        "timeStamp": 1790656983824
+      }
+    ],
+    "domains": [
+      {
+        "host": "doubleclick.net",
+        "siteType": "third-party",
+        "requests": 1,
+        "blocked": 1,
+        "trackingQueries": 0,
+        "types": [
+          "script"
+        ],
+        "examples": [
+          "https://doubleclick.net/instream/ad_status.js"
+        ]
+      },
+      {
+        "host": "privacy-test-pages.site",
+        "siteType": "first-party",
+        "requests": 1,
+        "blocked": 0,
+        "trackingQueries": 0,
+        "types": [
+          "image"
+        ],
+        "examples": [
+          "https://privacy-test-pages.site/favicon.ico"
+        ]
+      }
+    ],
+    "cookies": {
+      "observed": 0,
+      "firstParty": {
+        "total": 0,
+        "session": 0,
+        "persistent": 0
+      },
+      "thirdParty": {
+        "total": 0,
+        "session": 0,
+        "persistent": 0
+      },
+      "visibleAtEnd": 0,
+      "samples": []
+    },
+    "storage": {
+      "frame-0": {
+        "frameId": 0,
+        "url": "https://privacy-test-pages.site/tracker-reporting/1major-with-surrogate.html",
+        "localStorage": {
+          "supported": true,
+          "keys": 0,
+          "bytes": 0,
+          "names": []
+        },
+        "sessionStorage": {
+          "supported": true,
+          "keys": 0,
+          "bytes": 0,
+          "names": []
+        },
+        "indexedDB": {
+          "supported": true,
+          "databases": []
+        },
+        "documentCookieVisible": 0
+      }
+    },
+    "storagePartitioning": {
+      "origins": [
+        {
+          "origin": "https://privacy-test-pages.site",
+          "site": "privacy-test-pages.site",
+          "thirdParty": false,
+          "localKeys": 0,
+          "sessionKeys": 0,
+          "indexedDb": 0,
+          "frames": 1
+        }
+      ],
+      "firstPartyOrigins": 1,
+      "thirdPartyOrigins": 0,
+      "thirdPartyWithStorage": 0,
+      "interpretation": "Nenhuma origem de terceira parte com armazenamento observável nesta aba."
+    },
+    "probes": {
+      "total": 0,
+      "byType": {},
+      "samples": []
+    },
+    "redirects": [],
+    "bounceSignals": [],
+    "syncSignals": [],
+    "hijackingSignals": [],
+    "leakSignals": [],
+    "customBlockList": [],
+    "privacyScore": {
+      "score": 98,
+      "grade": "A",
+      "penalty": 2,
+      "criteria": [
+        {
+          "id": "third-party-domains",
+          "weight": 20,
+          "observed": 1,
+          "penalty": 2,
+          "explanation": "1 domínio(s) de terceira parte observados."
+        },
+        {
+          "id": "third-party-cookies",
+          "weight": 20,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 cookie(s) de terceira parte observados."
+        },
+        {
+          "id": "storage",
+          "weight": 15,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 origem(ns) de terceira parte com armazenamento observável."
+        },
+        {
+          "id": "fingerprinting",
+          "weight": 15,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 canvas, 0 hook(s) de interação e 0 alteração(ões) de superfície global."
+        },
+        {
+          "id": "sync-and-bounce",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 sync e 0 bounce candidate(s)."
+        },
+        {
+          "id": "hijacking",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 sinal(is) de canal persistente, hook ou script injetado."
+        },
+        {
+          "id": "data-leaks",
+          "weight": 10,
+          "observed": 0,
+          "penalty": 0,
+          "explanation": "0 candidato(s) a vazamento para terceira parte."
+        }
+      ],
+      "methodology": {
+        "version": "1.0",
+        "scale": "0-100; maior valor significa menor exposição observada",
+        "criteria": [
+          {
+            "id": "third-party-domains",
+            "label": "Domínios de terceira parte",
+            "weight": 20,
+            "justification": "Cada origem externa aumenta a superfície de compartilhamento e é comparada com a lista de rastreadores observados."
+          },
+          {
+            "id": "third-party-cookies",
+            "label": "Cookies de terceira parte",
+            "weight": 20,
+            "justification": "Cookies recebidos por Set-Cookie ou pela API de cookies recebem maior penalidade quando são persistentes."
+          },
+          {
+            "id": "storage",
+            "label": "Armazenamento fora da origem",
+            "weight": 15,
+            "justification": "localStorage, sessionStorage e IndexedDB em frames de terceira parte representam persistência adicional."
+          },
+          {
+            "id": "fingerprinting",
+            "label": "Fingerprinting e hooks de interação",
+            "weight": 15,
+            "justification": "Canvas, mudanças globais e listeners de interação são sinais comportamentais; a intenção deve ser confirmada no teste."
+          },
+          {
+            "id": "sync-and-bounce",
+            "label": "Cookie sync e bounce tracking",
+            "weight": 10,
+            "justification": "Identificadores em requisições cross-site e redirects entre sites permitem correlação de navegação."
+          },
+          {
+            "id": "hijacking",
+            "label": "Hijacking, polling e canais persistentes",
+            "weight": 10,
+            "justification": "WebSocket, EventSource, polling repetido, scripts injetados e alterações de globais podem indicar hook ou abuso."
+          },
+          {
+            "id": "data-leaks",
+            "label": "Vazamento de dados para terceiros",
+            "weight": 10,
+            "justification": "Chaves de dados em requisições cross-site ou endpoints de JS leaks são candidatos a exfiltração."
+          }
+        ]
+      }
+    },
+    "errors": [
+      {
+        "url": "https://doubleclick.net/instream/ad_status.js",
+        "type": "script",
+        "error": "NS_ERROR_ABORT",
+        "timeStamp": 1790656983771
+      }
+    ]
+  }
+}
